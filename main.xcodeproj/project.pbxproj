@@ -18,418 +18,418 @@
 			shellPath = "/bin/sh";
 			shellScript = "make\ -C\ /Users/bberman/Dropbox/Roto\ -f\ \'main.xcodeproj/qt_makeqmake.mak\'";
 		};
-		D85386F29899D7FF500366DD = {
+		873B869E9F72EB1EF2529A2F = {
 			isa = PBXFileReference;
 			name = "main.C";
-			path = "main.C";
+			path = "../main.C";
 			refType = 4;
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		20861094DB8CC110B211E1C1 = {
-			fileRef = "D85386F29899D7FF500366DD";
+		7DF6D26CEC0AB2B15B68E912 = {
+			fileRef = "873B869E9F72EB1EF2529A2F";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		1E9FDFCE8BADCAD77BC32199 = {
+		2BFBC2437E620B86459A22DA = {
 			isa = PBXFileReference;
 			name = "mymainwindow.C";
-			path = "mymainwindow.C";
+			path = "../mymainwindow.C";
 			refType = 4;
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		E79206B176C1D6A57EF6676A = {
-			fileRef = "1E9FDFCE8BADCAD77BC32199";
+		33ACFBEC2F50564191E9A4CB = {
+			fileRef = "2BFBC2437E620B86459A22DA";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		4D61C00057F742A4B3C6D60C = {
+		99C1E481E84850299DCF6DB2 = {
 			isa = PBXFileReference;
 			name = "centralWidget.C";
-			path = "centralWidget.C";
+			path = "../centralWidget.C";
 			refType = 4;
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		0A0CD9626BBD59A1FEB04B9F = {
-			fileRef = "4D61C00057F742A4B3C6D60C";
+		BB63B17A69DFCD22386FD18F = {
+			fileRef = "99C1E481E84850299DCF6DB2";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		18373EF8BC6741F1FB0F33E5 = {
+		57FC0AF6644FF3EECFF4478D = {
 			isa = PBXFileReference;
 			name = "rotoscope.C";
-			path = "rotoscope.C";
+			path = "../rotoscope.C";
 			refType = 4;
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		459464E74F161BDC013BD338 = {
-			fileRef = "18373EF8BC6741F1FB0F33E5";
+		9F7876BAE362FB5C8F4E3BB4 = {
+			fileRef = "57FC0AF6644FF3EECFF4478D";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		C9D53C7A53154B349D1B2682 = {
+		027434F74D4B9ABA4985A07F = {
 			isa = PBXFileReference;
 			name = "imageGraph.C";
-			path = "imageGraph.C";
+			path = "../imageGraph.C";
 			refType = 4;
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		2F59F158D77C694FDCA826D6 = {
-			fileRef = "C9D53C7A53154B349D1B2682";
+		1DE3438DB583673D545ED4F3 = {
+			fileRef = "027434F74D4B9ABA4985A07F";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		BEBCB7F5C2291DFC78741FDF = {
+		E1E2088C2FCA771471E4912B = {
 			isa = PBXFileReference;
 			name = "liveWire.C";
-			path = "liveWire.C";
+			path = "../liveWire.C";
 			refType = 4;
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		9A4CEEE028C53E5C732C4B81 = {
-			fileRef = "BEBCB7F5C2291DFC78741FDF";
+		43287C74ACF2224B016B59A3 = {
+			fileRef = "E1E2088C2FCA771471E4912B";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		3AAE03A6B75CD7D656A17D9D = {
+		9EA802C568D970B3363931BA = {
 			isa = PBXFileReference;
 			name = "rotoCurves.C";
-			path = "rotoCurves.C";
+			path = "../rotoCurves.C";
 			refType = 4;
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		FCC90797DD340AE33E746BF9 = {
-			fileRef = "3AAE03A6B75CD7D656A17D9D";
+		35E74BD9F58D3510A2F6AA6A = {
+			fileRef = "9EA802C568D970B3363931BA";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		1C3F5EDA4203CE437CD5018F = {
+		EB8053C87D607CC8CD9247D0 = {
 			isa = PBXFileReference;
 			name = "imgSequence.C";
-			path = "imgSequence.C";
+			path = "../imgSequence.C";
 			refType = 4;
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		40CBB4388CD38CB1BE75C4E3 = {
-			fileRef = "1C3F5EDA4203CE437CD5018F";
+		F75DEC3968A0F8031A98803C = {
+			fileRef = "EB8053C87D607CC8CD9247D0";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		3AB468581E9140BF8C1160D3 = {
+		58310D362DD23699D612DF7D = {
 			isa = PBXFileReference;
 			name = "corresponder.C";
-			path = "corresponder.C";
+			path = "../corresponder.C";
 			refType = 4;
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		94B5C68DD54A070A71CB0BBA = {
-			fileRef = "3AB468581E9140BF8C1160D3";
+		046082AC33894CF5EFE2366A = {
+			fileRef = "58310D362DD23699D612DF7D";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		14B324BAE74658F0E3E82013 = {
+		9814BBD867F072CE650143DA = {
 			isa = PBXFileReference;
 			name = "draw.C";
-			path = "draw.C";
+			path = "../draw.C";
 			refType = 4;
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		0812196E4A5D65A080D1C90F = {
-			fileRef = "14B324BAE74658F0E3E82013";
+		150966DFC905F626578C31D7 = {
+			fileRef = "9814BBD867F072CE650143DA";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		D0E5C4FA532119FB6D7D969D = {
+		AFDC271174C2C5813E79FD59 = {
 			isa = PBXFileReference;
 			name = "drawPath.C";
-			path = "drawPath.C";
+			path = "../drawPath.C";
 			refType = 4;
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		EC2D97D97F64E66CD0F2DAB1 = {
-			fileRef = "D0E5C4FA532119FB6D7D969D";
+		0E7EF214C0CE9D468C922FC8 = {
+			fileRef = "AFDC271174C2C5813E79FD59";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		E1799C1413F022D1F840F890 = {
+		F9E08E942C2C824671BD25A3 = {
 			isa = PBXFileReference;
 			name = "drawCurves.C";
-			path = "drawCurves.C";
+			path = "../drawCurves.C";
 			refType = 4;
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		B2C4611B0C35BFF92EF742A6 = {
-			fileRef = "E1799C1413F022D1F840F890";
+		35B47F616079A5F376DCCCFB = {
+			fileRef = "F9E08E942C2C824671BD25A3";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		BAD74F0FA160A17A14FFB41B = {
+		E4EAE1F20D725B255B0CEB82 = {
 			isa = PBXFileReference;
 			name = "rotoPath.C";
-			path = "rotoPath.C";
+			path = "../rotoPath.C";
 			refType = 4;
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		A493882AD75B5DBB9C5B4D56 = {
-			fileRef = "BAD74F0FA160A17A14FFB41B";
+		6DDF70DFA5C75526D638052E = {
+			fileRef = "E4EAE1F20D725B255B0CEB82";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		E1DF7B15C19A31DB06ADB4A6 = {
+		00FDD69B0B06F5C6E8EDDDCC = {
 			isa = PBXFileReference;
 			name = "Stroke.cpp";
-			path = "hertzStrokes/Stroke.cpp";
+			path = "../hertzStrokes/Stroke.cpp";
 			refType = 4;
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		53C67D5E8BA8E7D04B0A3787 = {
-			fileRef = "E1DF7B15C19A31DB06ADB4A6";
+		E0082FC665A229137C296786 = {
+			fileRef = "00FDD69B0B06F5C6E8EDDDCC";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		66F694AFF260E922F9100D3A = {
+		9B763881817E377D0B79418B = {
 			isa = PBXFileReference;
 			name = "geigerCorresponder.C";
-			path = "geigerCorresponder.C";
+			path = "../geigerCorresponder.C";
 			refType = 4;
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		2477D736ACD299B3B5754318 = {
-			fileRef = "66F694AFF260E922F9100D3A";
+		62268095376312B75E69D283 = {
+			fileRef = "9B763881817E377D0B79418B";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		AF292CFB717BDF4733B63304 = {
+		A6ADA17A20611B75B39E2173 = {
 			isa = PBXFileReference;
 			name = "abstractPath.C";
-			path = "abstractPath.C";
+			path = "../abstractPath.C";
 			refType = 4;
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		7336B1C26C368A99AECDB71F = {
-			fileRef = "AF292CFB717BDF4733B63304";
+		7AEC931EAAC897D4398FC590 = {
+			fileRef = "A6ADA17A20611B75B39E2173";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		DD9BB87A6A855FE057D9294A = {
+		D74ED8DA888DBE47016F3A53 = {
 			isa = PBXFileReference;
 			name = "interModule.C";
-			path = "interModule.C";
+			path = "../interModule.C";
 			refType = 4;
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		AB133293B9FAE28AD8DE8FC3 = {
-			fileRef = "DD9BB87A6A855FE057D9294A";
+		D1EBDAF4A097E1C14E4FEF82 = {
+			fileRef = "D74ED8DA888DBE47016F3A53";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		29A6FDB286E21B4FFD41B2D3 = {
+		18AEE8E4395794345BC1D130 = {
 			isa = PBXFileReference;
 			name = "FitCurves.c";
-			path = "myCurveFit/FitCurves.c";
+			path = "../myCurveFit/FitCurves.c";
 			refType = 4;
 		};
-		FEEACF213CCF74726D787D1A = {
-			fileRef = "29A6FDB286E21B4FFD41B2D3";
+		5FDF049CA0D12D5FA71CFC02 = {
+			fileRef = "18AEE8E4395794345BC1D130";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		5A86643375EE297D9D6AE202 = {
+		166EFC4FB611D2B9AB85BF4A = {
 			isa = PBXFileReference;
 			name = "GGVecLib.c";
-			path = "myCurveFit/GGVecLib.c";
+			path = "../myCurveFit/GGVecLib.c";
 			refType = 4;
 		};
-		497FAB748ADA41DA962F4539 = {
-			fileRef = "5A86643375EE297D9D6AE202";
+		BB393402C96524817DD96537 = {
+			fileRef = "166EFC4FB611D2B9AB85BF4A";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		4484CCC814476DB68E579103 = {
+		54CBABBC38396648BCD813E5 = {
 			isa = PBXFileReference;
 			name = "rangeDialog.C";
-			path = "rangeDialog.C";
+			path = "../rangeDialog.C";
 			refType = 4;
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		9B41A8A0D31DC8604D3419DD = {
-			fileRef = "4484CCC814476DB68E579103";
+		3D5A3D1A4738E38A167B12E9 = {
+			fileRef = "54CBABBC38396648BCD813E5";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		1F85469831A40A1007005BB4 = {
+		95BB64EDB758A69C94B935E3 = {
 			isa = PBXFileReference;
 			name = "drawCorresponder.C";
-			path = "drawCorresponder.C";
+			path = "../drawCorresponder.C";
 			refType = 4;
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		A95D0867ADD249262EB2BA82 = {
-			fileRef = "1F85469831A40A1007005BB4";
+		07E5A65482444817745A0F64 = {
+			fileRef = "95BB64EDB758A69C94B935E3";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		990CA6FD34A28B946B0D3A00 = {
+		9C0FAFB771E234E0BECB253C = {
 			isa = PBXFileReference;
 			name = "rotoCorresponder.C";
-			path = "rotoCorresponder.C";
+			path = "../rotoCorresponder.C";
 			refType = 4;
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		FF252CE86C9A70FC989F799D = {
-			fileRef = "990CA6FD34A28B946B0D3A00";
+		E9A1FC20BB71E8D008F52996 = {
+			fileRef = "9C0FAFB771E234E0BECB253C";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		747BC8E3CAA71EEB1DBA1BB5 = {
+		78EBC9B03F97F7572955F4AC = {
 			isa = PBXFileReference;
 			name = "Texture.C";
-			path = "Texture.C";
+			path = "../Texture.C";
 			refType = 4;
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		93BD556D16095BE8D42442FB = {
-			fileRef = "747BC8E3CAA71EEB1DBA1BB5";
+		505BD270B703BD14656C5147 = {
+			fileRef = "78EBC9B03F97F7572955F4AC";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		144DF3355BD53DA72904969B = {
+		23C701E6140AE4431F1A1C8B = {
 			isa = PBXFileReference;
 			name = "bitmap.cpp";
-			path = "hertzStrokes/bitmap.cpp";
+			path = "../hertzStrokes/bitmap.cpp";
 			refType = 4;
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		D3DC9E1C5BDB2B0F1568FE1D = {
-			fileRef = "144DF3355BD53DA72904969B";
+		7CDAFB6DA4F73555E4458B81 = {
+			fileRef = "23C701E6140AE4431F1A1C8B";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		18D13E09054F3FBFE8E5A092 = {
+		DFEC5D2D67008FFFA39D017F = {
 			isa = PBXFileReference;
 			name = "trackGraph.C";
-			path = "trackGraph.C";
+			path = "../trackGraph.C";
 			refType = 4;
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		150843C6AF2B1717A8CD186D = {
-			fileRef = "18D13E09054F3FBFE8E5A092";
+		20E249C90D6FF60480BEC1B9 = {
+			fileRef = "DFEC5D2D67008FFFA39D017F";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		E2F66B791D38C37CAAD7F353 = {
+		C8614CA5657217E0F34041E3 = {
 			isa = PBXFileReference;
 			name = "drawContCorr.C";
-			path = "drawContCorr.C";
+			path = "../drawContCorr.C";
 			refType = 4;
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		177976504C55E24138205D4B = {
-			fileRef = "E2F66B791D38C37CAAD7F353";
+		675E0AF9F4AEC75B1393F7EA = {
+			fileRef = "C8614CA5657217E0F34041E3";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		B01068593544975193F76414 = {
+		FDD8D8698B8D17B829DCBF34 = {
 			isa = PBXFileReference;
 			name = "transformer.C";
-			path = "transformer.C";
+			path = "../transformer.C";
 			refType = 4;
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		D3F6722D5F90A8892720104E = {
-			fileRef = "B01068593544975193F76414";
+		3D4B90496ED425AD676B75A3 = {
+			fileRef = "FDD8D8698B8D17B829DCBF34";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		73FF199AD36784A7825E1F70 = {
+		B683D5A71AAEED2AA2451E0D = {
 			isa = PBXFileReference;
 			name = "rotoRegion.C";
-			path = "rotoRegion.C";
+			path = "../rotoRegion.C";
 			refType = 4;
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		74D3BC07216CA40F00DE94DA = {
-			fileRef = "73FF199AD36784A7825E1F70";
+		14F7DD969C4862ED8F8105FE = {
+			fileRef = "B683D5A71AAEED2AA2451E0D";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
@@ -541,232 +541,232 @@
 					);
 			};
 		};
-		FAACDFF327016C353CD1A186 = {
+		7301FFF77011C4EBCFFF6BDE = {
 			isa = PBXFileReference;
 			name = "mymainwindow.h";
-			path = "mymainwindow.h";
+			path = "../mymainwindow.h";
 			refType = 4;
 		};
-		1E2B80982D5ECC076E7CA3A1 = {
+		404AE1EA7F19C63CE419AE46 = {
 			isa = PBXFileReference;
 			name = "centralWidget.h";
-			path = "centralWidget.h";
+			path = "../centralWidget.h";
 			refType = 4;
 		};
-		3586B223A12C2B7D57CFA18D = {
+		57FA1DAF28C3AB2A041AB465 = {
 			isa = PBXFileReference;
 			name = "imgSequence.h";
-			path = "imgSequence.h";
+			path = "../imgSequence.h";
 			refType = 4;
 		};
-		484E8553FE4D8D6E993D56A4 = {
+		45E63AE3273D3BCA604C7F92 = {
 			isa = PBXFileReference;
 			name = "rotoscope.h";
-			path = "rotoscope.h";
+			path = "../rotoscope.h";
 			refType = 4;
 		};
-		5B2F48154E4A4218C4BFD480 = {
+		B57EED4746563D5BA368BDAF = {
 			isa = PBXFileReference;
 			name = "dynArray.h";
-			path = "dynArray.h";
+			path = "../dynArray.h";
 			refType = 4;
 		};
-		382042EE7E5F27E0046F00E5 = {
+		D571763DB397E91391BEBC9C = {
 			isa = PBXFileReference;
 			name = "jl_vectors.h";
-			path = "jl_vectors.h";
+			path = "../jl_vectors.h";
 			refType = 4;
 		};
-		2C7685E8D80E5E58F836D682 = {
+		FE602D7CF0AE796C741B59A2 = {
 			isa = PBXFileReference;
 			name = "llist.h";
-			path = "llist.h";
+			path = "../llist.h";
 			refType = 4;
 		};
-		57BB0CE027BBF89CE955A7C0 = {
+		9F2D9CC577D9192FDCD2DE50 = {
 			isa = PBXFileReference;
 			name = "geigerCorresponder.h";
-			path = "geigerCorresponder.h";
+			path = "../geigerCorresponder.h";
 			refType = 4;
 		};
-		4C8E6A9F994A81C9078E4CD3 = {
+		6C75C9D637E8E9AECC25F9A5 = {
 			isa = PBXFileReference;
 			name = "imageGraph.h";
-			path = "imageGraph.h";
+			path = "../imageGraph.h";
 			refType = 4;
 		};
-		BE85A1E46DA6E63696F817B6 = {
+		5CA087367F1CACAF82B75A88 = {
 			isa = PBXFileReference;
 			name = "liveWire.h";
-			path = "liveWire.h";
+			path = "../liveWire.h";
 			refType = 4;
 		};
-		245FF9BA63D7C2A5EE035B6E = {
+		A30762701A77E8BB9E8170C5 = {
 			isa = PBXFileReference;
 			name = "heap.h";
-			path = "heap.h";
+			path = "../heap.h";
 			refType = 4;
 		};
-		BE7594F4B2928576D47F6CF8 = {
+		60CAA4A86A2D87726D840CE5 = {
 			isa = PBXFileReference;
 			name = "rotoCurves.h";
-			path = "rotoCurves.h";
+			path = "../rotoCurves.h";
 			refType = 4;
 		};
-		0F8049AFB4A49FA7600FF04E = {
+		398F8166971FA7145BFC8333 = {
 			isa = PBXFileReference;
 			name = "corresponder.h";
-			path = "corresponder.h";
+			path = "../corresponder.h";
 			refType = 4;
 		};
-		6F6C985BABA3CE11B77E1095 = {
+		EE9EB77FC6668AD67027B1BE = {
 			isa = PBXFileReference;
 			name = "rotoCorresponder.h";
-			path = "rotoCorresponder.h";
+			path = "../rotoCorresponder.h";
 			refType = 4;
 		};
-		958E5BBB5518F91D65325D83 = {
+		7B49F73DA177C2271ABD3497 = {
 			isa = PBXFileReference;
 			name = "draw.h";
-			path = "draw.h";
+			path = "../draw.h";
 			refType = 4;
 		};
-		864C46CEA44A5E0BB3EEB345 = {
+		FB4B7DEAB2812795298DFE27 = {
 			isa = PBXFileReference;
 			name = "drawPath.h";
-			path = "drawPath.h";
+			path = "../drawPath.h";
 			refType = 4;
 		};
-		0404E0E9F85BA6E8BD58129C = {
+		E9081A2CE4F0CBE8A3CE0775 = {
 			isa = PBXFileReference;
 			name = "drawCurves.h";
-			path = "drawCurves.h";
+			path = "../drawCurves.h";
 			refType = 4;
 		};
-		8F8DABB45E835E830C4E31C5 = {
+		5C0E5DDDE1F5847B3BBF0F13 = {
 			isa = PBXFileReference;
 			name = "rotoPath.h";
-			path = "rotoPath.h";
+			path = "../rotoPath.h";
 			refType = 4;
 		};
-		5D88EE4B8D64BE95A05B0066 = {
+		FEAC528BF838D62902F05C9D = {
 			isa = PBXFileReference;
 			name = "abstractPath.h";
-			path = "abstractPath.h";
+			path = "../abstractPath.h";
 			refType = 4;
 		};
-		8B5ACD259175C2DD993C72FE = {
+		44896B633A31A1EE6EF727AE = {
 			isa = PBXFileReference;
 			name = "interModule.h";
-			path = "interModule.h";
+			path = "../interModule.h";
 			refType = 4;
 		};
-		7901EEFF4D68FE209CADC09E = {
+		278C609BB9FDE8939B1EFA66 = {
 			isa = PBXFileReference;
 			name = "FitCurves.h";
-			path = "myCurveFit/FitCurves.h";
+			path = "../myCurveFit/FitCurves.h";
 			refType = 4;
 		};
-		56B35ED36D6E084B164CAA10 = {
+		89767340A655491697367ACD = {
 			isa = PBXFileReference;
 			name = "bBoxf2D.h";
-			path = "bBoxf2D.h";
+			path = "../bBoxf2D.h";
 			refType = 4;
 		};
-		5C6D4AA3D898328F1D90B892 = {
+		AAC20A011C17C3669780A2D2 = {
 			isa = PBXFileReference;
 			name = "klt.h";
-			path = "KLT/klt.h";
+			path = "../KLT/klt.h";
 			refType = 4;
 		};
-		1EE4568A25034C0C924D4CBE = {
+		87871053798D47135FDC3C65 = {
 			isa = PBXFileReference;
 			name = "rangeDialog.h";
-			path = "rangeDialog.h";
+			path = "../rangeDialog.h";
 			refType = 4;
 		};
-		B20B67786552587D0202C411 = {
+		E575A7D8186DF44AB289575A = {
 			isa = PBXFileReference;
 			name = "drawCorresponder.h";
-			path = "drawCorresponder.h";
+			path = "../drawCorresponder.h";
 			refType = 4;
 		};
-		C819D01337CE8E8253F2E558 = {
+		51055E97BBCE208F317BD43A = {
 			isa = PBXFileReference;
 			name = "gcnode.h";
-			path = "gcnode.h";
+			path = "../gcnode.h";
 			refType = 4;
 		};
-		AB29C5280C98AD2587B99F02 = {
+		1AB7A740BAA021F7BC1FF90F = {
 			isa = PBXFileReference;
 			name = "pixmaps.h";
-			path = "pixmaps.h";
+			path = "../pixmaps.h";
 			refType = 4;
 		};
-		AB57110E164929E7FD13C8D7 = {
+		FFC506FF50E9FA6B94F19D8B = {
 			isa = PBXFileReference;
 			name = "joint.h";
-			path = "joint.h";
+			path = "../joint.h";
 			refType = 4;
 		};
-		EAC8DD86ED352FF4F05C1726 = {
+		BF2FAEAA6FF46113A8C579D1 = {
 			isa = PBXFileReference;
 			name = "Texture.h";
-			path = "Texture.h";
+			path = "../Texture.h";
 			refType = 4;
 		};
-		238236069E77B883B1322944 = {
+		E91C92BF2FF825F37D65277B = {
 			isa = PBXFileReference;
 			name = "Stroke.h";
-			path = "hertzStrokes/Stroke.h";
+			path = "../hertzStrokes/Stroke.h";
 			refType = 4;
 		};
-		72B26123ED5FDED0411C412B = {
+		D4396B257088D3F790737E92 = {
 			isa = PBXFileReference;
 			name = "bitmap.h";
-			path = "hertzStrokes/bitmap.h";
+			path = "../hertzStrokes/bitmap.h";
 			refType = 4;
 		};
-		6C1E7460EDBDF867D8201C4F = {
+		FC2B447CF6849D43CEAA55FE = {
 			isa = PBXFileReference;
 			name = "trackGraph.h";
-			path = "trackGraph.h";
+			path = "../trackGraph.h";
 			refType = 4;
 		};
-		3F2AE507823E1715B4E0F3CE = {
+		9C7E975740766DD2900E18AF = {
 			isa = PBXFileReference;
 			name = "contCorr.h";
-			path = "KLT/contCorr.h";
+			path = "../KLT/contCorr.h";
 			refType = 4;
 		};
-		DC448965836F7B92A177CCDC = {
+		DB62D37DF4AC92FD69BE4EFB = {
 			isa = PBXFileReference;
 			name = "bezSpline.h";
-			path = "KLT/bezSpline.h";
+			path = "../KLT/bezSpline.h";
 			refType = 4;
 		};
-		5F8C33778550DC87DA50F7F9 = {
+		E597D7486B609159C8727F77 = {
 			isa = PBXFileReference;
 			name = "talkFitCurve.h";
-			path = "KLT/talkFitCurve.h";
+			path = "../KLT/talkFitCurve.h";
 			refType = 4;
 		};
-		84CF2BC6DA466474CEBE7DFE = {
+		98934296CC74F08B07B09122 = {
 			isa = PBXFileReference;
 			name = "drawContCorr.h";
-			path = "drawContCorr.h";
+			path = "../drawContCorr.h";
 			refType = 4;
 		};
-		FECBF5ECBB898CFC1CA52B81 = {
+		8468F94375BE9E8D3205640D = {
 			isa = PBXFileReference;
 			name = "transformer.h";
-			path = "transformer.h";
+			path = "../transformer.h";
 			refType = 4;
 		};
-		9BF50B54F3CF5E27A5B9FBC6 = {
+		1787FE281BDC7046986938C2 = {
 			isa = PBXFileReference;
 			name = "rotoRegion.h";
-			path = "rotoRegion.h";
+			path = "../rotoRegion.h";
 			refType = 4;
 		};
 		EADD74948EDE171424D7DA78 = {
@@ -778,113 +778,127 @@
 		883D7615C4D2DE3FA1218F12 = {
 			isa = PBXGroup;
 			children = (
-				"FAACDFF327016C353CD1A186",
-				"1E2B80982D5ECC076E7CA3A1",
-				"3586B223A12C2B7D57CFA18D",
-				"484E8553FE4D8D6E993D56A4",
-				"5B2F48154E4A4218C4BFD480",
-				"382042EE7E5F27E0046F00E5",
-				"2C7685E8D80E5E58F836D682",
-				"57BB0CE027BBF89CE955A7C0",
-				"4C8E6A9F994A81C9078E4CD3",
-				"BE85A1E46DA6E63696F817B6",
-				"245FF9BA63D7C2A5EE035B6E",
-				"BE7594F4B2928576D47F6CF8",
-				"0F8049AFB4A49FA7600FF04E",
-				"6F6C985BABA3CE11B77E1095",
-				"958E5BBB5518F91D65325D83",
-				"864C46CEA44A5E0BB3EEB345",
-				"0404E0E9F85BA6E8BD58129C",
-				"8F8DABB45E835E830C4E31C5",
-				"5D88EE4B8D64BE95A05B0066",
-				"8B5ACD259175C2DD993C72FE",
-				"422E9F474AF0E43C48BD6B1E",
-				"56B35ED36D6E084B164CAA10",
-				"B4409DA45EC20570E2876CC8",
-				"1EE4568A25034C0C924D4CBE",
-				"B20B67786552587D0202C411",
-				"C819D01337CE8E8253F2E558",
-				"AB29C5280C98AD2587B99F02",
-				"AB57110E164929E7FD13C8D7",
-				"EAC8DD86ED352FF4F05C1726",
-				"CC9B42DA0F610F83A7A230E1",
-				"6C1E7460EDBDF867D8201C4F",
-				"84CF2BC6DA466474CEBE7DFE",
-				"FECBF5ECBB898CFC1CA52B81",
-				"9BF50B54F3CF5E27A5B9FBC6");
+				"4458B98565818D7E2682FA2D");
 			name = "Headers";
 			refType = 4;
 		};
-		B4409DA45EC20570E2876CC8 = {
+		4458B98565818D7E2682FA2D = {
 			isa = PBXGroup;
 			children = (
-				"5C6D4AA3D898328F1D90B892",
-				"3F2AE507823E1715B4E0F3CE",
-				"DC448965836F7B92A177CCDC",
-				"5F8C33778550DC87DA50F7F9");
+				"7301FFF77011C4EBCFFF6BDE",
+				"404AE1EA7F19C63CE419AE46",
+				"57FA1DAF28C3AB2A041AB465",
+				"45E63AE3273D3BCA604C7F92",
+				"B57EED4746563D5BA368BDAF",
+				"D571763DB397E91391BEBC9C",
+				"FE602D7CF0AE796C741B59A2",
+				"9F2D9CC577D9192FDCD2DE50",
+				"6C75C9D637E8E9AECC25F9A5",
+				"5CA087367F1CACAF82B75A88",
+				"A30762701A77E8BB9E8170C5",
+				"60CAA4A86A2D87726D840CE5",
+				"398F8166971FA7145BFC8333",
+				"EE9EB77FC6668AD67027B1BE",
+				"7B49F73DA177C2271ABD3497",
+				"FB4B7DEAB2812795298DFE27",
+				"E9081A2CE4F0CBE8A3CE0775",
+				"5C0E5DDDE1F5847B3BBF0F13",
+				"FEAC528BF838D62902F05C9D",
+				"44896B633A31A1EE6EF727AE",
+				"33E5EA2D302A699E15754A04",
+				"89767340A655491697367ACD",
+				"E526C57031B104749DF6D6AA",
+				"87871053798D47135FDC3C65",
+				"E575A7D8186DF44AB289575A",
+				"51055E97BBCE208F317BD43A",
+				"1AB7A740BAA021F7BC1FF90F",
+				"FFC506FF50E9FA6B94F19D8B",
+				"BF2FAEAA6FF46113A8C579D1",
+				"4BC11430BEAD88294938F9EB",
+				"FC2B447CF6849D43CEAA55FE",
+				"98934296CC74F08B07B09122",
+				"8468F94375BE9E8D3205640D",
+				"1787FE281BDC7046986938C2");
+			name = "..";
+			refType = 4;
+		};
+		E526C57031B104749DF6D6AA = {
+			isa = PBXGroup;
+			children = (
+				"AAC20A011C17C3669780A2D2",
+				"9C7E975740766DD2900E18AF",
+				"DB62D37DF4AC92FD69BE4EFB",
+				"E597D7486B609159C8727F77");
 			name = "KLT";
 			refType = 4;
 		};
-		CC9B42DA0F610F83A7A230E1 = {
+		4BC11430BEAD88294938F9EB = {
 			isa = PBXGroup;
 			children = (
-				"238236069E77B883B1322944",
-				"72B26123ED5FDED0411C412B");
+				"E91C92BF2FF825F37D65277B",
+				"D4396B257088D3F790737E92");
 			name = "hertzStrokes";
 			refType = 4;
 		};
-		422E9F474AF0E43C48BD6B1E = {
+		33E5EA2D302A699E15754A04 = {
 			isa = PBXGroup;
 			children = (
-				"7901EEFF4D68FE209CADC09E");
+				"278C609BB9FDE8939B1EFA66");
 			name = "myCurveFit";
 			refType = 4;
 		};
-		B61BA1B71B4413551873A39C = {
+		BFA3A29D17FD123C907B6E35 = {
 			isa = PBXGroup;
 			children = (
-				"E1DF7B15C19A31DB06ADB4A6",
-				"144DF3355BD53DA72904969B");
+				"873B869E9F72EB1EF2529A2F",
+				"2BFBC2437E620B86459A22DA",
+				"99C1E481E84850299DCF6DB2",
+				"57FC0AF6644FF3EECFF4478D",
+				"027434F74D4B9ABA4985A07F",
+				"E1E2088C2FCA771471E4912B",
+				"9EA802C568D970B3363931BA",
+				"EB8053C87D607CC8CD9247D0",
+				"58310D362DD23699D612DF7D",
+				"9814BBD867F072CE650143DA",
+				"AFDC271174C2C5813E79FD59",
+				"F9E08E942C2C824671BD25A3",
+				"E4EAE1F20D725B255B0CEB82",
+				"BB98B2394D37E39FE627E1CA",
+				"9B763881817E377D0B79418B",
+				"A6ADA17A20611B75B39E2173",
+				"D74ED8DA888DBE47016F3A53",
+				"D6F9DCB34DC04CABCD227D2F",
+				"54CBABBC38396648BCD813E5",
+				"95BB64EDB758A69C94B935E3",
+				"9C0FAFB771E234E0BECB253C",
+				"78EBC9B03F97F7572955F4AC",
+				"DFEC5D2D67008FFFA39D017F",
+				"C8614CA5657217E0F34041E3",
+				"FDD8D8698B8D17B829DCBF34",
+				"B683D5A71AAEED2AA2451E0D");
+			name = "..";
+			refType = 4;
+		};
+		BB98B2394D37E39FE627E1CA = {
+			isa = PBXGroup;
+			children = (
+				"00FDD69B0B06F5C6E8EDDDCC",
+				"23C701E6140AE4431F1A1C8B");
 			name = "hertzStrokes";
 			refType = 4;
 		};
-		0E254007E7A9BB6B5A08F025 = {
+		D6F9DCB34DC04CABCD227D2F = {
 			isa = PBXGroup;
 			children = (
-				"29A6FDB286E21B4FFD41B2D3",
-				"5A86643375EE297D9D6AE202");
+				"18AEE8E4395794345BC1D130",
+				"166EFC4FB611D2B9AB85BF4A");
 			name = "myCurveFit";
 			refType = 4;
 		};
 		FB61758D0F0FDA4BA867C3D5 = {
 			isa = PBXGroup;
 			children = (
-				"D85386F29899D7FF500366DD",
-				"1E9FDFCE8BADCAD77BC32199",
-				"4D61C00057F742A4B3C6D60C",
-				"18373EF8BC6741F1FB0F33E5",
-				"C9D53C7A53154B349D1B2682",
-				"BEBCB7F5C2291DFC78741FDF",
-				"3AAE03A6B75CD7D656A17D9D",
-				"1C3F5EDA4203CE437CD5018F",
-				"3AB468581E9140BF8C1160D3",
-				"14B324BAE74658F0E3E82013",
-				"D0E5C4FA532119FB6D7D969D",
-				"E1799C1413F022D1F840F890",
-				"BAD74F0FA160A17A14FFB41B",
-				"B61BA1B71B4413551873A39C",
-				"66F694AFF260E922F9100D3A",
-				"AF292CFB717BDF4733B63304",
-				"DD9BB87A6A855FE057D9294A",
-				"0E254007E7A9BB6B5A08F025",
-				"4484CCC814476DB68E579103",
-				"1F85469831A40A1007005BB4",
-				"990CA6FD34A28B946B0D3A00",
-				"747BC8E3CAA71EEB1DBA1BB5",
-				"18D13E09054F3FBFE8E5A092",
-				"E2F66B791D38C37CAAD7F353",
-				"B01068593544975193F76414",
-				"73FF199AD36784A7825E1F70");
+				"BFA3A29D17FD123C907B6E35");
 			name = "Sources";
 			refType = 4;
 		};
@@ -913,34 +927,34 @@
 			files = (
 				);
 			generatedFileNames = (
-				"20861094DB8CC110B211E1C1",
-				"E79206B176C1D6A57EF6676A",
-				"0A0CD9626BBD59A1FEB04B9F",
-				"459464E74F161BDC013BD338",
-				"2F59F158D77C694FDCA826D6",
-				"9A4CEEE028C53E5C732C4B81",
-				"FCC90797DD340AE33E746BF9",
-				"40CBB4388CD38CB1BE75C4E3",
-				"94B5C68DD54A070A71CB0BBA",
-				"0812196E4A5D65A080D1C90F",
-				"EC2D97D97F64E66CD0F2DAB1",
-				"B2C4611B0C35BFF92EF742A6",
-				"A493882AD75B5DBB9C5B4D56",
-				"53C67D5E8BA8E7D04B0A3787",
-				"2477D736ACD299B3B5754318",
-				"7336B1C26C368A99AECDB71F",
-				"AB133293B9FAE28AD8DE8FC3",
-				"FEEACF213CCF74726D787D1A",
-				"497FAB748ADA41DA962F4539",
-				"9B41A8A0D31DC8604D3419DD",
-				"A95D0867ADD249262EB2BA82",
-				"FF252CE86C9A70FC989F799D",
-				"93BD556D16095BE8D42442FB",
-				"D3DC9E1C5BDB2B0F1568FE1D",
-				"150843C6AF2B1717A8CD186D",
-				"177976504C55E24138205D4B",
-				"D3F6722D5F90A8892720104E",
-				"74D3BC07216CA40F00DE94DA",
+				"7DF6D26CEC0AB2B15B68E912",
+				"33ACFBEC2F50564191E9A4CB",
+				"BB63B17A69DFCD22386FD18F",
+				"9F7876BAE362FB5C8F4E3BB4",
+				"1DE3438DB583673D545ED4F3",
+				"43287C74ACF2224B016B59A3",
+				"35E74BD9F58D3510A2F6AA6A",
+				"F75DEC3968A0F8031A98803C",
+				"046082AC33894CF5EFE2366A",
+				"150966DFC905F626578C31D7",
+				"0E7EF214C0CE9D468C922FC8",
+				"35B47F616079A5F376DCCCFB",
+				"6DDF70DFA5C75526D638052E",
+				"E0082FC665A229137C296786",
+				"62268095376312B75E69D283",
+				"7AEC931EAAC897D4398FC590",
+				"D1EBDAF4A097E1C14E4FEF82",
+				"5FDF049CA0D12D5FA71CFC02",
+				"BB393402C96524817DD96537",
+				"3D5A3D1A4738E38A167B12E9",
+				"07E5A65482444817745A0F64",
+				"E9A1FC20BB71E8D008F52996",
+				"505BD270B703BD14656C5147",
+				"7CDAFB6DA4F73555E4458B81",
+				"20E249C90D6FF60480BEC1B9",
+				"675E0AF9F4AEC75B1393F7EA",
+				"3D4B90496ED425AD676B75A3",
+				"14F7DD969C4862ED8F8105FE",
 				"819A96660B65F9A12202F539",
 				"783C68FE30F1F361101DEA3B",
 				"765A1CF3C94241D87AC2CF8A",
@@ -951,34 +965,34 @@
 			isa = PBXShellScriptBuildPhase;
 			name = "Qt Preprocessors";
 			neededFileNames = (
-				"20861094DB8CC110B211E1C1",
-				"E79206B176C1D6A57EF6676A",
-				"0A0CD9626BBD59A1FEB04B9F",
-				"459464E74F161BDC013BD338",
-				"2F59F158D77C694FDCA826D6",
-				"9A4CEEE028C53E5C732C4B81",
-				"FCC90797DD340AE33E746BF9",
-				"40CBB4388CD38CB1BE75C4E3",
-				"94B5C68DD54A070A71CB0BBA",
-				"0812196E4A5D65A080D1C90F",
-				"EC2D97D97F64E66CD0F2DAB1",
-				"B2C4611B0C35BFF92EF742A6",
-				"A493882AD75B5DBB9C5B4D56",
-				"53C67D5E8BA8E7D04B0A3787",
-				"2477D736ACD299B3B5754318",
-				"7336B1C26C368A99AECDB71F",
-				"AB133293B9FAE28AD8DE8FC3",
-				"FEEACF213CCF74726D787D1A",
-				"497FAB748ADA41DA962F4539",
-				"9B41A8A0D31DC8604D3419DD",
-				"A95D0867ADD249262EB2BA82",
-				"FF252CE86C9A70FC989F799D",
-				"93BD556D16095BE8D42442FB",
-				"D3DC9E1C5BDB2B0F1568FE1D",
-				"150843C6AF2B1717A8CD186D",
-				"177976504C55E24138205D4B",
-				"D3F6722D5F90A8892720104E",
-				"74D3BC07216CA40F00DE94DA",
+				"7DF6D26CEC0AB2B15B68E912",
+				"33ACFBEC2F50564191E9A4CB",
+				"BB63B17A69DFCD22386FD18F",
+				"9F7876BAE362FB5C8F4E3BB4",
+				"1DE3438DB583673D545ED4F3",
+				"43287C74ACF2224B016B59A3",
+				"35E74BD9F58D3510A2F6AA6A",
+				"F75DEC3968A0F8031A98803C",
+				"046082AC33894CF5EFE2366A",
+				"150966DFC905F626578C31D7",
+				"0E7EF214C0CE9D468C922FC8",
+				"35B47F616079A5F376DCCCFB",
+				"6DDF70DFA5C75526D638052E",
+				"E0082FC665A229137C296786",
+				"62268095376312B75E69D283",
+				"7AEC931EAAC897D4398FC590",
+				"D1EBDAF4A097E1C14E4FEF82",
+				"5FDF049CA0D12D5FA71CFC02",
+				"BB393402C96524817DD96537",
+				"3D5A3D1A4738E38A167B12E9",
+				"07E5A65482444817745A0F64",
+				"E9A1FC20BB71E8D008F52996",
+				"505BD270B703BD14656C5147",
+				"7CDAFB6DA4F73555E4458B81",
+				"20E249C90D6FF60480BEC1B9",
+				"675E0AF9F4AEC75B1393F7EA",
+				"3D4B90496ED425AD676B75A3",
+				"14F7DD969C4862ED8F8105FE",
 				"819A96660B65F9A12202F539",
 				"783C68FE30F1F361101DEA3B",
 				"765A1CF3C94241D87AC2CF8A",
@@ -992,34 +1006,34 @@
 		C29B8785722055ED95EF7B57 = {
 			buildActionMask = 2147483647;
 			files = (
-				"20861094DB8CC110B211E1C1",
-				"E79206B176C1D6A57EF6676A",
-				"0A0CD9626BBD59A1FEB04B9F",
-				"459464E74F161BDC013BD338",
-				"2F59F158D77C694FDCA826D6",
-				"9A4CEEE028C53E5C732C4B81",
-				"FCC90797DD340AE33E746BF9",
-				"40CBB4388CD38CB1BE75C4E3",
-				"94B5C68DD54A070A71CB0BBA",
-				"0812196E4A5D65A080D1C90F",
-				"EC2D97D97F64E66CD0F2DAB1",
-				"B2C4611B0C35BFF92EF742A6",
-				"A493882AD75B5DBB9C5B4D56",
-				"53C67D5E8BA8E7D04B0A3787",
-				"2477D736ACD299B3B5754318",
-				"7336B1C26C368A99AECDB71F",
-				"AB133293B9FAE28AD8DE8FC3",
-				"FEEACF213CCF74726D787D1A",
-				"497FAB748ADA41DA962F4539",
-				"9B41A8A0D31DC8604D3419DD",
-				"A95D0867ADD249262EB2BA82",
-				"FF252CE86C9A70FC989F799D",
-				"93BD556D16095BE8D42442FB",
-				"D3DC9E1C5BDB2B0F1568FE1D",
-				"150843C6AF2B1717A8CD186D",
-				"177976504C55E24138205D4B",
-				"D3F6722D5F90A8892720104E",
-				"74D3BC07216CA40F00DE94DA",
+				"7DF6D26CEC0AB2B15B68E912",
+				"33ACFBEC2F50564191E9A4CB",
+				"BB63B17A69DFCD22386FD18F",
+				"9F7876BAE362FB5C8F4E3BB4",
+				"1DE3438DB583673D545ED4F3",
+				"43287C74ACF2224B016B59A3",
+				"35E74BD9F58D3510A2F6AA6A",
+				"F75DEC3968A0F8031A98803C",
+				"046082AC33894CF5EFE2366A",
+				"150966DFC905F626578C31D7",
+				"0E7EF214C0CE9D468C922FC8",
+				"35B47F616079A5F376DCCCFB",
+				"6DDF70DFA5C75526D638052E",
+				"E0082FC665A229137C296786",
+				"62268095376312B75E69D283",
+				"7AEC931EAAC897D4398FC590",
+				"D1EBDAF4A097E1C14E4FEF82",
+				"5FDF049CA0D12D5FA71CFC02",
+				"BB393402C96524817DD96537",
+				"3D5A3D1A4738E38A167B12E9",
+				"07E5A65482444817745A0F64",
+				"E9A1FC20BB71E8D008F52996",
+				"505BD270B703BD14656C5147",
+				"7CDAFB6DA4F73555E4458B81",
+				"20E249C90D6FF60480BEC1B9",
+				"675E0AF9F4AEC75B1393F7EA",
+				"3D4B90496ED425AD676B75A3",
+				"14F7DD969C4862ED8F8105FE",
 				"819A96660B65F9A12202F539",
 				"783C68FE30F1F361101DEA3B",
 				"765A1CF3C94241D87AC2CF8A",
@@ -1209,13 +1223,15 @@
 					"/usr/local/Cellar/qt/4.8.3/lib/QtGui.framework/Versions/4/Headers",
 					"/usr/local/Cellar/qt/4.8.3/lib/QtGui.framework/Versions/4/Headers",
 					"/usr/local/Cellar/qt/4.8.3/include",
-					"myCurveFit",
+					"../myCurveFit",
 					"/homes/gws/aseem/boost",
 					"/System/Library/Frameworks/OpenGL.framework/Versions/A/Headers",
 					"/System/Library/Frameworks/AGL.framework/Headers",
 					".",
+					"../../Roto",
 					"/usr/local/include",
 					"/System/Library/Frameworks/CarbonCore.framework/Headers",
+					".",
 					"/usr/local/Cellar/qt/4.8.3/mkspecs/macx-xcode");
 				LIBRARY_SEARCH_PATHS = (
 					"/usr/local/Cellar/qt/4.8.3/lib",
@@ -1291,13 +1307,15 @@
 					"/usr/local/Cellar/qt/4.8.3/lib/QtGui.framework/Versions/4/Headers",
 					"/usr/local/Cellar/qt/4.8.3/lib/QtGui.framework/Versions/4/Headers",
 					"/usr/local/Cellar/qt/4.8.3/include",
-					"myCurveFit",
+					"../myCurveFit",
 					"/homes/gws/aseem/boost",
 					"/System/Library/Frameworks/OpenGL.framework/Versions/A/Headers",
 					"/System/Library/Frameworks/AGL.framework/Headers",
 					".",
+					"../../Roto",
 					"/usr/local/include",
 					"/System/Library/Frameworks/CarbonCore.framework/Headers",
+					".",
 					"/usr/local/Cellar/qt/4.8.3/mkspecs/macx-xcode");
 				LIBRARY_SEARCH_PATHS = (
 					"/usr/local/Cellar/qt/4.8.3/lib",

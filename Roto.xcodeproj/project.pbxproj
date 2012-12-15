@@ -331,7 +331,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 17B3380A4D6A7D415E7F2E1E /* Build configuration list for PBXNativeTarget "main" */;
 			buildPhases = (
-				3AF92CAF167C8A5300E26B98 /* ShellScript */,
 				3AF92CB0167C8D5900E26B98 /* ShellScript */,
 				A0A52A2ADF7A1E2A99738674 /* Qt Preprocessors */,
 				C29B8785722055ED95EF7B57 /* Build Sources */,
@@ -381,33 +380,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3AF92CAF167C8A5300E26B98 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/mymainwindow.C",
-				"$(SRCROOT)/centralWidget.C",
-				"$(SRCROOT)/rotoscope.C",
-				"$(SRCROOT)/liveWire.C",
-				"$(SRCROOT)/draw.C",
-				"$(SRCROOT)/interModule.C",
-				"$(SRCROOT)/rangeDialog.C",
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/moc_mymainwindow.cpp",
-				"$(DERIVED_FILE_DIR)/moc_centralWidget.cpp",
-				"$(DERIVED_FILE_DIR)/moc_rotoscope.cpp",
-				"$(DERIVED_FILE_DIR)/moc_liveWire.cpp",
-				"$(DERIVED_FILE_DIR)/moc_draw.cpp",
-				"$(DERIVED_FILE_DIR)/moc_interModule.cpp",
-				"$(DERIVED_FILE_DIR)/moc_rangeDialog.cpp",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "moc mymainwindow.h -o moc_mymainwindow.cpp\nmoc centralWidget.h -o moc_centralWidget.cpp\nmoc rotoscope.h -o moc_rotoscope.cpp\nmoc liveWire.h -o moc_liveWire.cpp\nmoc draw.h -o moc_interModule.cpp\nmoc rangeDialog.h -o moc_rangeDialog.cpp";
-		};
 		3AF92CB0167C8D5900E26B98 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

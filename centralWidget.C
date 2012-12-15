@@ -21,9 +21,10 @@ USA
 
 
 
-//#include <qpopupmenu.h>
+//#include <Q3PopupMenu.h>
 #include <qcursor.h>
 #include <qmenu.h>
+
 #include "centralWidget.h"
 
 CentralWidget::CentralWidget(const QGLFormat &format, ImgSequence* is, QWidget *parent) : QGLWidget(format, parent,NULL), 
@@ -33,7 +34,7 @@ CentralWidget::CentralWidget(const QGLFormat &format, ImgSequence* is, QWidget *
   setFixedSize(_w,_h);
   setMinimumSize(_w,_h);
   setMaximumSize(_w,_h);
-  setFocusPolicy(QWidget::StrongFocus);
+  setFocusPolicy(QWidget::focusPolicy());
   _frame = _is->getStart();
   _imageShow = true;
   _propMode = 1;

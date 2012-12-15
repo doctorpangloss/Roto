@@ -32,17 +32,17 @@ USA
 #include <qradiobutton.h>
 #include <qlineedit.h>
 #include <qslider.h>
-#include <qlistbox.h>
+#include <Qt3Support/q3listbox.h>
+#include <Qt3Support/q3popupmenu.h>
 #include <qaction.h>
 #include <qcursor.h>
-
+#include <Qt3Support/q3dockwindow.h>
 #include "imgSequence.h"
 #include "centralWidget.h"
 #include "draw.h"
 #include "rangeDialog.h"
 
-
-class QPopupMenu;
+class Q3PopupMenu;
 
 class MyMainWindow: public QMainWindow {
   Q_OBJECT
@@ -53,7 +53,7 @@ class MyMainWindow: public QMainWindow {
     
   //  void testSuite();
 
-  QDockWindow* extWin;
+  Q3DockWindow* extWin;
 
   public slots:
     
@@ -119,14 +119,14 @@ class MyMainWindow: public QMainWindow {
 
   QToolButton *_draw, *_image, *_color ;
   QCheckBox  *_show, *_freehand;
-  QPopupMenu *tool, *file, *tracking, *drawing, *edit, *style ;
+  Q3PopupMenu *tool, *file, *tracking, *drawing, *edit, *style ;
   QRadioButton *constantWindow, *pinLast, *useSmooth, *useNormalEq,
     *printSingulars, *usePseudo, *preRegister, *dumpWindows, *showTrackPoints, *fixNudge;
   QLineEdit *nlevels, *smoothAlpha, *smooth2Deriv, *smooth1Deriv, *smoothShape, *edgeWeight;
   QPushButton *_reset;
   QSlider *slider1, *slider2, *sensSlider;
   QToolBar *tbar;
-  QListBox *propagateMode, *renderMode;
+  Q3ListBox *propagateMode, *renderMode;
 
 };
 

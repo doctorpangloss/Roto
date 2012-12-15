@@ -23,20 +23,21 @@ USA
 
 #include "mymainwindow.h"
 
-#include <qpopupmenu.h>
+#include <Qt3Support/q3popupmenu.h>
 #include <qmenubar.h>
 #include <qcolordialog.h>
 #include <qapplication.h>
 #include <qspinbox.h>
 #include <qinputdialog.h>
 #include <qlayout.h>
-#include <qhbox.h>
-#include <qvbox.h>
+#include <Qt3Support/q3hbox.h>
+#include <Qt3Support/q3vbox.h>
 #include <qlabel.h>
 #include <qfiledialog.h>
 #include <qstring.h>
 #include <qtooltip.h>
 #include <qbitmap.h>
+#include <qmenu.h>
 #include "pixmaps.h"
 
 
@@ -59,7 +60,7 @@ MyMainWindow::MyMainWindow(ImgSequence* is) {
 
   
 
-  file = new QPopupMenu( this );
+  file = new Q3PopupMenu( this );
   menuBar()->insertItem( "&File", file,0 );  
   file->insertItem( "Quit", qApp, SLOT( quit() ), CTRL + Key_Q );
   file->insertItem("Save Curves",this,SLOT( saveCurves() ), CTRL + Key_S);
@@ -70,20 +71,20 @@ MyMainWindow::MyMainWindow(ImgSequence* is) {
   file->insertItem("Save mattes", this, SLOT(saveMattes()));
   file->insertItem("Show lerp", _cw, SLOT(calcLerp()));
   /*
-  tool = new QPopupMenu( this );
+  tool = new Q3PopupMenu( this );
   tool->setCheckable(true);
   menuBar()->insertItem("&Tool", tool, 1);
   buildToolMenu();
   connect(tool,SIGNAL(activated(int)), this, SLOT(toolChanged(int)));
   */
 
-  edit = new QPopupMenu(this);
+  edit = new Q3PopupMenu(this);
   menuBar()->insertItem("Edit", edit, 2);
   edit->insertItem("Copy", _cw, SLOT(copy()), CTRL + Key_C);
   edit->insertItem("Paste", _cw, SLOT(paste()), CTRL + Key_V);
 
 
-  tracking = new QPopupMenu(this);
+  tracking = new Q3PopupMenu(this);
   menuBar()->insertItem("Tracking", tracking, 3);
   tracking->insertItem("Load/Calc Tracking Data...",this,SLOT(loadCalc()), CTRL + Key_L,0);
   tracking->insertItem("Write Tracking Data...",this,SLOT(writeTrack()),CTRL + Key_D,1);
@@ -92,13 +93,13 @@ MyMainWindow::MyMainWindow(ImgSequence* is) {
   tracking->insertItem("Redo track", this, SLOT(redoTrack()),CTRL + Key_W, 4);
   //tracking->insertItem("Track forward",this,SLOT(trackForward()), CTRL + Key_T, -1, 5);
 
-  drawing = new QPopupMenu(this);
+  drawing = new Q3PopupMenu(this);
   menuBar()->insertItem("Drawing", drawing, 4);
   drawing->insertItem("Correspond & Propagate All Free", _cw, SLOT(corrPropAll()));
   drawing->insertItem("Delete all drawings across time", this, SLOT(deleteAllTime()));
 
   /* new style pop up menu - lets user select the drawing style */
-  /*style = new QPopupMenu(this); 
+  /*style = new Q3PopupMenu(this); 
   menuBar()->insertItem("Style", style, 5);  
 
   QRgb black =  qRgb(0, 0, 0); 

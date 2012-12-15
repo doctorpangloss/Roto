@@ -28,6 +28,7 @@ USA
 #ifdef __APPLE__
 using namespace std;
 #endif
+#define QT3_SUPPORT
 #include <qwidget.h>
 #include <OpenGl/gl.h>
 #include <OpenGl/glu.h>
