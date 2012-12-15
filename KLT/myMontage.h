@@ -33,7 +33,7 @@ class MyMontage {
   MyMontage(QImage *ims, int num, int mag, int numCols) {
     int tw = ims[0].width(), th = ims[0].height();
     int numRows = num/numCols+1, xoffset,yoffset;
-    _mont.create(numCols*tw*mag, numRows*th*mag, 32);
+    _mont = QImage(numCols*tw*mag, numRows*th*mag, QImage::Format_ARGB32);
     int whichImage=0;
     for (int j=0; j<numRows; j++) {
       yoffset = j*th*mag;

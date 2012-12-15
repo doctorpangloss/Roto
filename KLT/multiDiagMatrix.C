@@ -127,7 +127,7 @@ double& MultiDiagMatrix::operator () (const uint i, const uint j) {
   }
   else {  // not part of diagonals
     //printf("%d %d\n",i,j);
-    return _junk[i](j-i);    
+      return _junk->operator[](i).ref();
   }
 }
 

@@ -173,29 +173,30 @@ void MyCongMat::matVecMult(const double x[], double r[]) const {
 
 
 void MyCongMat::printExpanded(FILE* fp) {
-  int dim = _numVec*l2;
-  double* data = new double[dim*dim];
-  memset(data, 0, dim*dim*sizeof(double));
-  int i, t, offset;
-  for (i=0; i<_numVec; i++) {
-    offset = i*l2;
-    _A[i].drop(data + offset*dim + offset, dim); 
-  }
-
-  int i1=0, j1=l2;
-  int i2=l2, j2=0;
-  for (t=0; t<_numVec-1; ++t,i1+=l2,j1+=l2,i2+=l2,j2+=l2) { 
-    _Al[t].drop(data + dim*j1 + i1, dim);
-    _Al[t].dropT(data + dim*j2 + i2, dim);
-  }
-
-  for (t=0; t<dim; t++) {
-    for (i=0; i<dim; i++) {
-      fprintf(fp,"%.16f ", data[t*dim+i]);
-      //assert(data[t*dim+i] == data[i*dim+t]);
-    }
-    fprintf(fp,"\n");
-  }
-
-  delete[] data;
+//  int dim = _numVec*l2;
+//  double* data = new double[dim*dim];
+//  memset(data, 0, dim*dim*sizeof(double));
+//  int i, t, offset;
+//  for (i=0; i<_numVec; i++) {
+//    offset = i*l2;
+//    _A[i].drop(data + offset*dim + offset, dim); 
+//  }
+//
+//  int i1=0, j1=l2;
+//  int i2=l2, j2=0;
+//  for (t=0; t<_numVec-1; ++t,i1+=l2,j1+=l2,i2+=l2,j2+=l2) { 
+//    _Al[t].drop(data + dim*j1 + i1, dim);
+//    _Al[t].dropT(data + dim*j2 + i2, dim);
+//  }
+//
+//  for (t=0; t<dim; t++) {
+//    for (i=0; i<dim; i++) {
+//      fprintf(fp,"%.16f ", data[t*dim+i]);
+//      //assert(data[t*dim+i] == data[i*dim+t]);
+//    }
+//    fprintf(fp,"\n");
+//  }
+//
+//  delete[] data;
+    return;
 }

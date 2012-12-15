@@ -365,7 +365,7 @@ void KLT_ColorPyramid::writeImages(char* name) const {
   int nlevels = _r->getNLevels();
   for (int t=0; t<nlevels; t++) {
     int w = _r->getNCols(t), h = _r->getNRows(t);
-    QImage im(w,h,32);
+    QImage im(w,h,QImage::Format_ARGB32);
     KLT_FloatImage *rf = _r->getFImage(t), *gf = _g->getFImage(t),  *bf = _b->getFImage(t);
     for (int j=0; j<h; j++)
       for (int i=0; i<w; i++) {
@@ -385,7 +385,7 @@ void KLT_ColorPyramid::writeDerivImages(char* name) const {
   int nlevels = _r->getNLevels();
   for (int t=0; t<nlevels; t++) {
     int w = _r->getNCols(t), h = _r->getNRows(t);
-    QImage im(w,h,32);
+    QImage im(w,h,QImage::Format_ARGB32);
     KLT_FloatImage *rf = _r->getFImage(t), *gf = _g->getFImage(t),  *bf = _b->getFImage(t);
     for (int j=0; j<h; j++)
       for (int i=0; i<w; i++) {
@@ -407,7 +407,7 @@ void KLT_Pyramid::writeImages(char* name) const {
   int nlevels = getNLevels();
   for (int t=0; t<nlevels; t++) {
     int w = getNCols(t), h = getNRows(t);
-    QImage im(w,h,32);
+    QImage im(w,h,QImage::Format_ARGB32);
     const KLT_FloatImage *f = getFImage(t);
     for (int j=0; j<h; j++)
       for (int i=0; i<w; i++) {
@@ -426,7 +426,7 @@ void KLT_Pyramid::writeDerivImages(char* name) const {
   int nlevels = getNLevels();
   for (int t=0; t<nlevels; t++) {
     int w =  getNCols(t), h = getNRows(t);
-    QImage im(w,h,32);
+    QImage im(w,h,QImage::Format_ARGB32);
     const KLT_FloatImage *f = getFImage(t);
     for (int j=0; j<h; j++)
       for (int i=0; i<w; i++) {

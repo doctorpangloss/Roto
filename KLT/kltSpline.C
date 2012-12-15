@@ -214,7 +214,7 @@ void KLT_TrackingContext::safeSplineTrack(const KLT_FullCPyramid** pyrms, const 
     if (res)
       break;
     else {
-      _mts->_z_wait->wait();  // make sure dragging is done
+      _mts->_z_wait->wait(_mts->_z_mutex);  // make sure dragging is done
       printf("Retry\n");
       _mts->takeControls(&(_mts->_Z));
       _mts->discretizeAll(2, RESAMPLE_CONSISTENTLY); // comment out if RESAMPLE wanted    

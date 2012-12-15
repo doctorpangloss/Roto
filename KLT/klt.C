@@ -655,7 +655,7 @@ void KLT_TrackingContext::hnorm(const int n, const float i, const float j, const
 void KLT_TrackingContext::visMatrix(const double *A, const int rows, const int cols) const {
   int F = 1, val;
   double e = .00001;
-  QImage im(F*cols, F*rows, 8);
+  QImage im(F*cols, F*rows, QImage::Format_Indexed8);
   im.setNumColors(2);
   im.setColor(0,qRgb(255,255,255));
   im.setColor(1,qRgb(0,0,0));
@@ -1048,7 +1048,8 @@ void KLT_TrackingContext::safeTrack2(const KLT_FullCPyramid** pyrms, const KLT_F
 	assert(_stateOk==false);  // only can make it true here
 	_stateOk = true;
 	_mt->_z_mutex->unlock();
-	_mt->_z_wait->wait();  // make sure dragging is done
+    _mt->_z_wait->wait(_mt->_z_mutex);
+	//_mt->_z_wait->wait();  // make sure dragging is done
 	printf("state invalidated, starting smooth run\n");
 	bool temp1 = useImage, temp2 = useEdges;
 	useImage = false;  
@@ -2514,12 +2515,12 @@ int KLT_TrackingContext::longPatchTrack(const KLT_FullCPyramid** pyrms, int numF
 }
 */
 // DEBUG
-
-QRgb makeMyColor(Vec3f c) {
-  c.Clamp(0,255);
-  QColor cl((int)c.r(), (int)c.g(), (int)c.b());
-  return cl.rgb();
-}
+//
+//QRgb makeMyColor(Vec3f c) {
+//  c.Clamp(0,255);
+//  QColor cl(c.r(), c.g(), c.b());
+//  return cl.rgb();
+//}
 
 
 

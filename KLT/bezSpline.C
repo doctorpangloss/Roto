@@ -22,10 +22,10 @@ USA
 
 
 #include "bezSpline.h"
-#include <GL/gl.h>
+#include <OpenGl/gl.h>
 #include <float.h>
 
-
+typedef unsigned int uint;
 
 BezSpline::BezSpline(TalkFitCurve* inCurve) {
   
