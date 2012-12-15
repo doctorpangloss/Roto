@@ -29,8 +29,8 @@ USA
 using namespace std;
 #endif
 #include <qwidget.h>
-#include <GL/gl.h>
-#include <GL/glu.h>
+#include <OpenGl/gl.h>
+#include <OpenGl/glu.h>
 #include <qgl.h>
 #include <qimage.h>
 #include <qdatetime.h>

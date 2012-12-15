@@ -21,8 +21,9 @@ USA
 
 
 
-#include <qpopupmenu.h>
+//#include <qpopupmenu.h>
 #include <qcursor.h>
+#include <qmenu.h>
 #include "centralWidget.h"
 
 CentralWidget::CentralWidget(const QGLFormat &format, ImgSequence* is, QWidget *parent) : QGLWidget(format, parent,NULL), 
@@ -169,7 +170,7 @@ void CentralWidget::mousePressEvent( QMouseEvent *e ) {
   //printf("mouse press event %d\n", e->button());
   if (e->button() == Qt::RightButton || e->button() == Qt::MidButton) {
     Vec2i loc(e->x(), e->y());
-    QPopupMenu pm;
+    QMenu pm;
 
     DynArray<int,5> enab;
     CmdMap* commands = _module->getPopupFunctions(loc, &enab);
@@ -183,7 +184,7 @@ void CentralWidget::mousePressEvent( QMouseEvent *e ) {
     }
     delete commands;
 
-    int res = pm.exec(QCursor::pos());
+    int res = pm.popup(QCursor::pos());
     if (_module == _roto && (res==FORM_REGION || res==PROPAGATE_REGION))
       resetZoom();
     _module->callPopup(res);

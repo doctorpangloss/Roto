@@ -52,7 +52,7 @@ LiveWire::LiveWire(Vec2i seedPoint, ImageGraph *graph) :
   continueIniting();
   _timer = new QTimer(this);
   connect(_timer, SIGNAL(timeout()), this,SLOT(continueIniting()));
-  _timer->start(0,false);
+  _timer->start(0);
 
 }
 

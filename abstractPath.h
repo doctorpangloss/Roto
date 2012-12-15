@@ -26,8 +26,8 @@ USA
 
 #include <assert.h>
 #include <stdio.h>
-#include <GL/gl.h>
-#include <GL/glu.h>
+#include <OpenGl/gl.h>
+#include <OpenGl/glu.h>
 #include <qdatastream.h>
 #include "dynArray.h"
 #include "jl_vectors.h"

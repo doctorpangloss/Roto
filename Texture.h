@@ -31,8 +31,8 @@ USA
 #ifndef _TEXTURE_H_
 #define _TEXTURE_H_
 
-#include <GL/gl.h>
-#include <GL/glu.h>
+#include <OpenGl/gl.h>
+#include <OpenGl/glu.h>
 #include <qimage.h>
 #include <stdio.h> 
 #include <assert.h>

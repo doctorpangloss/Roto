@@ -21,7 +21,7 @@ USA
 
 
 
-#include <GL/gl.h>
+#include <OpenGl/gl.h>
 #include <float.h>
 #include "drawCurves.h"
 

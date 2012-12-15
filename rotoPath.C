@@ -22,7 +22,7 @@ USA
 
 
 #include <float.h>
-#include <GL/gl.h>
+#include <OpenGl/gl.h>
 #include "rotoPath.h"
 #include "GraphicsGems.h"
 

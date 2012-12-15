@@ -30,8 +30,8 @@ using namespace std;
 #include <qwidget.h>
 #include <string>
 #include <map>
-#include <GL/gl.h>
-#include <GL/glu.h>
+#include <OpenGl/gl.h>
+#include <OpenGl/glu.h>
 #include "jl_vectors.h"
 #include "dynArray.h"
 

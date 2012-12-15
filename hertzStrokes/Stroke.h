@@ -25,8 +25,8 @@ USA
 #define __STROKE_HH__
 
 using namespace std;
-#include <GL/gl.h>
-#include <GL/glu.h>
+#include <OpenGl/gl.h>
+#include <OpenGl/glu.h>
 #include <math.h>
 #include <vector>
 #include <stdio.h>
