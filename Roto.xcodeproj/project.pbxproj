@@ -1,0 +1,699 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0812196E4A5D65A080D1C90F /* draw.C in Build Sources */ = {isa = PBXBuildFile; fileRef = 14B324BAE74658F0E3E82013 /* draw.C */; settings = {ATTRIBUTES = (); }; };
+		0A0CD9626BBD59A1FEB04B9F /* centralWidget.C in Build Sources */ = {isa = PBXBuildFile; fileRef = 4D61C00057F742A4B3C6D60C /* centralWidget.C */; settings = {ATTRIBUTES = (); }; };
+		0C6D4628EE0B0D1479A20551 /* AGL.framework in Frameworks & Libraries */ = {isa = PBXBuildFile; fileRef = C6766F86E49E9C8701C8E637 /* AGL.framework */; };
+		150843C6AF2B1717A8CD186D /* trackGraph.C in Build Sources */ = {isa = PBXBuildFile; fileRef = 18D13E09054F3FBFE8E5A092 /* trackGraph.C */; settings = {ATTRIBUTES = (); }; };
+		177976504C55E24138205D4B /* drawContCorr.C in Build Sources */ = {isa = PBXBuildFile; fileRef = E2F66B791D38C37CAAD7F353 /* drawContCorr.C */; settings = {ATTRIBUTES = (); }; };
+		20861094DB8CC110B211E1C1 /* main.C in Build Sources */ = {isa = PBXBuildFile; fileRef = D85386F29899D7FF500366DD /* main.C */; settings = {ATTRIBUTES = (); }; };
+		2477D736ACD299B3B5754318 /* geigerCorresponder.C in Build Sources */ = {isa = PBXBuildFile; fileRef = 66F694AFF260E922F9100D3A /* geigerCorresponder.C */; settings = {ATTRIBUTES = (); }; };
+		2F59F158D77C694FDCA826D6 /* imageGraph.C in Build Sources */ = {isa = PBXBuildFile; fileRef = C9D53C7A53154B349D1B2682 /* imageGraph.C */; settings = {ATTRIBUTES = (); }; };
+		33AA8E9BF2C18FE5C87A8E3E /* QtCore.framework in Frameworks & Libraries */ = {isa = PBXBuildFile; fileRef = 2E131938C8C591929B676F3B /* QtCore.framework */; };
+		3AF92CB8167C90F100E26B98 /* QtOpenGL.framework in Frameworks & Libraries */ = {isa = PBXBuildFile; fileRef = 3AF92CB6167C90E600E26B98 /* QtOpenGL.framework */; };
+		3FD4A56039EBCA7C4FAF8D1B /* moc_interModule.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = EDE3EB372D61CC2EE0BA1F4A /* moc_interModule.cpp */; settings = {ATTRIBUTES = (); }; };
+		40CBB4388CD38CB1BE75C4E3 /* imgSequence.C in Build Sources */ = {isa = PBXBuildFile; fileRef = 1C3F5EDA4203CE437CD5018F /* imgSequence.C */; settings = {ATTRIBUTES = (); }; };
+		459464E74F161BDC013BD338 /* rotoscope.C in Build Sources */ = {isa = PBXBuildFile; fileRef = 18373EF8BC6741F1FB0F33E5 /* rotoscope.C */; settings = {ATTRIBUTES = (); }; };
+		497FAB748ADA41DA962F4539 /* GGVecLib.c in Build Sources */ = {isa = PBXBuildFile; fileRef = 5A86643375EE297D9D6AE202 /* GGVecLib.c */; settings = {ATTRIBUTES = (); }; };
+		53C67D5E8BA8E7D04B0A3787 /* Stroke.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = E1DF7B15C19A31DB06ADB4A6 /* Stroke.cpp */; settings = {ATTRIBUTES = (); }; };
+		5B1E9DA6D912F8DAE6688856 /* moc_draw.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 5BF4A0D34921F99FEF1C3B22 /* moc_draw.cpp */; settings = {ATTRIBUTES = (); }; };
+		7336B1C26C368A99AECDB71F /* abstractPath.C in Build Sources */ = {isa = PBXBuildFile; fileRef = AF292CFB717BDF4733B63304 /* abstractPath.C */; settings = {ATTRIBUTES = (); }; };
+		74D3BC07216CA40F00DE94DA /* rotoRegion.C in Build Sources */ = {isa = PBXBuildFile; fileRef = 73FF199AD36784A7825E1F70 /* rotoRegion.C */; settings = {ATTRIBUTES = (); }; };
+		765A1CF3C94241D87AC2CF8A /* moc_rotoscope.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 1E1C4355B3E2814211FC3341 /* moc_rotoscope.cpp */; settings = {ATTRIBUTES = (); }; };
+		783C68FE30F1F361101DEA3B /* moc_centralWidget.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 775CA770B58CB9AE910027A6 /* moc_centralWidget.cpp */; settings = {ATTRIBUTES = (); }; };
+		819A96660B65F9A12202F539 /* moc_mymainwindow.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 0B1E2AAFA76EF9D21D04C4DF /* moc_mymainwindow.cpp */; settings = {ATTRIBUTES = (); }; };
+		93BD556D16095BE8D42442FB /* Texture.C in Build Sources */ = {isa = PBXBuildFile; fileRef = 747BC8E3CAA71EEB1DBA1BB5 /* Texture.C */; settings = {ATTRIBUTES = (); }; };
+		94B5C68DD54A070A71CB0BBA /* corresponder.C in Build Sources */ = {isa = PBXBuildFile; fileRef = 3AB468581E9140BF8C1160D3 /* corresponder.C */; settings = {ATTRIBUTES = (); }; };
+		9A4CEEE028C53E5C732C4B81 /* liveWire.C in Build Sources */ = {isa = PBXBuildFile; fileRef = BEBCB7F5C2291DFC78741FDF /* liveWire.C */; settings = {ATTRIBUTES = (); }; };
+		9B41A8A0D31DC8604D3419DD /* rangeDialog.C in Build Sources */ = {isa = PBXBuildFile; fileRef = 4484CCC814476DB68E579103 /* rangeDialog.C */; settings = {ATTRIBUTES = (); }; };
+		A493882AD75B5DBB9C5B4D56 /* rotoPath.C in Build Sources */ = {isa = PBXBuildFile; fileRef = BAD74F0FA160A17A14FFB41B /* rotoPath.C */; settings = {ATTRIBUTES = (); }; };
+		A95D0867ADD249262EB2BA82 /* drawCorresponder.C in Build Sources */ = {isa = PBXBuildFile; fileRef = 1F85469831A40A1007005BB4 /* drawCorresponder.C */; settings = {ATTRIBUTES = (); }; };
+		AB133293B9FAE28AD8DE8FC3 /* interModule.C in Build Sources */ = {isa = PBXBuildFile; fileRef = DD9BB87A6A855FE057D9294A /* interModule.C */; settings = {ATTRIBUTES = (); }; };
+		B2C4611B0C35BFF92EF742A6 /* drawCurves.C in Build Sources */ = {isa = PBXBuildFile; fileRef = E1799C1413F022D1F840F890 /* drawCurves.C */; settings = {ATTRIBUTES = (); }; };
+		B87B915F0CB0A6376ABB4C62 /* moc_rangeDialog.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 5653E7A75D471A9F4948704E /* moc_rangeDialog.cpp */; settings = {ATTRIBUTES = (); }; };
+		BCEF71E1EDFB18DA77DC750B /* OpenGL.framework in Frameworks & Libraries */ = {isa = PBXBuildFile; fileRef = DA18A6831232F53228631AD1 /* OpenGL.framework */; };
+		D24F52AE66F57430E7CADA44 /* moc_liveWire.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = AE7F46039BD293769C56DDF9 /* moc_liveWire.cpp */; settings = {ATTRIBUTES = (); }; };
+		D3DC9E1C5BDB2B0F1568FE1D /* bitmap.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 144DF3355BD53DA72904969B /* bitmap.cpp */; settings = {ATTRIBUTES = (); }; };
+		D3F6722D5F90A8892720104E /* transformer.C in Build Sources */ = {isa = PBXBuildFile; fileRef = B01068593544975193F76414 /* transformer.C */; settings = {ATTRIBUTES = (); }; };
+		DC0712966F14BC1E6B48B4D9 /* QtGui.framework in Frameworks & Libraries */ = {isa = PBXBuildFile; fileRef = 774A4788C0271AA619066823 /* QtGui.framework */; };
+		E79206B176C1D6A57EF6676A /* mymainwindow.C in Build Sources */ = {isa = PBXBuildFile; fileRef = 1E9FDFCE8BADCAD77BC32199 /* mymainwindow.C */; settings = {ATTRIBUTES = (); }; };
+		EC2D97D97F64E66CD0F2DAB1 /* drawPath.C in Build Sources */ = {isa = PBXBuildFile; fileRef = D0E5C4FA532119FB6D7D969D /* drawPath.C */; settings = {ATTRIBUTES = (); }; };
+		FCC90797DD340AE33E746BF9 /* rotoCurves.C in Build Sources */ = {isa = PBXBuildFile; fileRef = 3AAE03A6B75CD7D656A17D9D /* rotoCurves.C */; settings = {ATTRIBUTES = (); }; };
+		FEEACF213CCF74726D787D1A /* FitCurves.c in Build Sources */ = {isa = PBXBuildFile; fileRef = 29A6FDB286E21B4FFD41B2D3 /* FitCurves.c */; settings = {ATTRIBUTES = (); }; };
+		FF252CE86C9A70FC989F799D /* rotoCorresponder.C in Build Sources */ = {isa = PBXBuildFile; fileRef = 990CA6FD34A28B946B0D3A00 /* rotoCorresponder.C */; settings = {ATTRIBUTES = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0404E0E9F85BA6E8BD58129C /* drawCurves.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = drawCurves.h; sourceTree = SOURCE_ROOT; };
+		0B1E2AAFA76EF9D21D04C4DF /* moc_mymainwindow.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = moc_mymainwindow.cpp; sourceTree = SOURCE_ROOT; };
+		0F8049AFB4A49FA7600FF04E /* corresponder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = corresponder.h; sourceTree = SOURCE_ROOT; };
+		144DF3355BD53DA72904969B /* bitmap.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = bitmap.cpp; path = hertzStrokes/bitmap.cpp; sourceTree = SOURCE_ROOT; };
+		14B324BAE74658F0E3E82013 /* draw.C */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = draw.C; sourceTree = SOURCE_ROOT; };
+		18373EF8BC6741F1FB0F33E5 /* rotoscope.C */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = rotoscope.C; sourceTree = SOURCE_ROOT; };
+		18D13E09054F3FBFE8E5A092 /* trackGraph.C */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = trackGraph.C; sourceTree = SOURCE_ROOT; };
+		1C3F5EDA4203CE437CD5018F /* imgSequence.C */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = imgSequence.C; sourceTree = SOURCE_ROOT; };
+		1E1C4355B3E2814211FC3341 /* moc_rotoscope.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = moc_rotoscope.cpp; sourceTree = SOURCE_ROOT; };
+		1E2B80982D5ECC076E7CA3A1 /* centralWidget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = centralWidget.h; sourceTree = SOURCE_ROOT; };
+		1E9FDFCE8BADCAD77BC32199 /* mymainwindow.C */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mymainwindow.C; sourceTree = SOURCE_ROOT; };
+		1EE4568A25034C0C924D4CBE /* rangeDialog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rangeDialog.h; sourceTree = SOURCE_ROOT; };
+		1F85469831A40A1007005BB4 /* drawCorresponder.C */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = drawCorresponder.C; sourceTree = SOURCE_ROOT; };
+		238236069E77B883B1322944 /* Stroke.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Stroke.h; path = hertzStrokes/Stroke.h; sourceTree = SOURCE_ROOT; };
+		245FF9BA63D7C2A5EE035B6E /* heap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = heap.h; sourceTree = SOURCE_ROOT; };
+		29A6FDB286E21B4FFD41B2D3 /* FitCurves.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = FitCurves.c; path = myCurveFit/FitCurves.c; sourceTree = SOURCE_ROOT; };
+		2C7685E8D80E5E58F836D682 /* llist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = llist.h; sourceTree = SOURCE_ROOT; };
+		2E131938C8C591929B676F3B /* QtCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtCore.framework; path = /usr/local/Cellar/qt/4.8.3/lib/QtCore.framework; sourceTree = "<unknown>"; };
+		3586B223A12C2B7D57CFA18D /* imgSequence.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = imgSequence.h; sourceTree = SOURCE_ROOT; };
+		382042EE7E5F27E0046F00E5 /* jl_vectors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = jl_vectors.h; sourceTree = SOURCE_ROOT; };
+		3AAE03A6B75CD7D656A17D9D /* rotoCurves.C */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = rotoCurves.C; sourceTree = SOURCE_ROOT; };
+		3AB468581E9140BF8C1160D3 /* corresponder.C */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = corresponder.C; sourceTree = SOURCE_ROOT; };
+		3AF92CAB167C88EC00E26B98 /* main.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = main.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AF92CB6167C90E600E26B98 /* QtOpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtOpenGL.framework; path = /usr/local/lib/QtOpenGL.framework; sourceTree = "<absolute>"; };
+		3F2AE507823E1715B4E0F3CE /* contCorr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = contCorr.h; path = KLT/contCorr.h; sourceTree = SOURCE_ROOT; };
+		4484CCC814476DB68E579103 /* rangeDialog.C */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = rangeDialog.C; sourceTree = SOURCE_ROOT; };
+		484E8553FE4D8D6E993D56A4 /* rotoscope.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rotoscope.h; sourceTree = SOURCE_ROOT; };
+		4C8E6A9F994A81C9078E4CD3 /* imageGraph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = imageGraph.h; sourceTree = SOURCE_ROOT; };
+		4D61C00057F742A4B3C6D60C /* centralWidget.C */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = centralWidget.C; sourceTree = SOURCE_ROOT; };
+		5653E7A75D471A9F4948704E /* moc_rangeDialog.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = moc_rangeDialog.cpp; sourceTree = SOURCE_ROOT; };
+		56B35ED36D6E084B164CAA10 /* bBoxf2D.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bBoxf2D.h; sourceTree = SOURCE_ROOT; };
+		57BB0CE027BBF89CE955A7C0 /* geigerCorresponder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = geigerCorresponder.h; sourceTree = SOURCE_ROOT; };
+		5A86643375EE297D9D6AE202 /* GGVecLib.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = GGVecLib.c; path = myCurveFit/GGVecLib.c; sourceTree = SOURCE_ROOT; };
+		5B2F48154E4A4218C4BFD480 /* dynArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dynArray.h; sourceTree = SOURCE_ROOT; };
+		5BF4A0D34921F99FEF1C3B22 /* moc_draw.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = moc_draw.cpp; sourceTree = SOURCE_ROOT; };
+		5C6D4AA3D898328F1D90B892 /* klt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = klt.h; path = KLT/klt.h; sourceTree = SOURCE_ROOT; };
+		5D88EE4B8D64BE95A05B0066 /* abstractPath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = abstractPath.h; sourceTree = SOURCE_ROOT; };
+		5F8C33778550DC87DA50F7F9 /* talkFitCurve.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = talkFitCurve.h; path = KLT/talkFitCurve.h; sourceTree = SOURCE_ROOT; };
+		66F694AFF260E922F9100D3A /* geigerCorresponder.C */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = geigerCorresponder.C; sourceTree = SOURCE_ROOT; };
+		6C1E7460EDBDF867D8201C4F /* trackGraph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = trackGraph.h; sourceTree = SOURCE_ROOT; };
+		6F6C985BABA3CE11B77E1095 /* rotoCorresponder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rotoCorresponder.h; sourceTree = SOURCE_ROOT; };
+		72B26123ED5FDED0411C412B /* bitmap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = bitmap.h; path = hertzStrokes/bitmap.h; sourceTree = SOURCE_ROOT; };
+		73FF199AD36784A7825E1F70 /* rotoRegion.C */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = rotoRegion.C; sourceTree = SOURCE_ROOT; };
+		747BC8E3CAA71EEB1DBA1BB5 /* Texture.C */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Texture.C; sourceTree = SOURCE_ROOT; };
+		774A4788C0271AA619066823 /* QtGui.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtGui.framework; path = /usr/local/Cellar/qt/4.8.3/lib/QtGui.framework; sourceTree = "<unknown>"; };
+		775CA770B58CB9AE910027A6 /* moc_centralWidget.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = moc_centralWidget.cpp; sourceTree = SOURCE_ROOT; };
+		7901EEFF4D68FE209CADC09E /* FitCurves.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FitCurves.h; path = myCurveFit/FitCurves.h; sourceTree = SOURCE_ROOT; };
+		84CF2BC6DA466474CEBE7DFE /* drawContCorr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = drawContCorr.h; sourceTree = SOURCE_ROOT; };
+		864C46CEA44A5E0BB3EEB345 /* drawPath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = drawPath.h; sourceTree = SOURCE_ROOT; };
+		8B5ACD259175C2DD993C72FE /* interModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = interModule.h; sourceTree = SOURCE_ROOT; };
+		8F8DABB45E835E830C4E31C5 /* rotoPath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rotoPath.h; sourceTree = SOURCE_ROOT; };
+		958E5BBB5518F91D65325D83 /* draw.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = draw.h; sourceTree = SOURCE_ROOT; };
+		990CA6FD34A28B946B0D3A00 /* rotoCorresponder.C */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = rotoCorresponder.C; sourceTree = SOURCE_ROOT; };
+		9BF50B54F3CF5E27A5B9FBC6 /* rotoRegion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rotoRegion.h; sourceTree = SOURCE_ROOT; };
+		AB29C5280C98AD2587B99F02 /* pixmaps.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pixmaps.h; sourceTree = SOURCE_ROOT; };
+		AB57110E164929E7FD13C8D7 /* joint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = joint.h; sourceTree = SOURCE_ROOT; };
+		AE7F46039BD293769C56DDF9 /* moc_liveWire.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = moc_liveWire.cpp; sourceTree = SOURCE_ROOT; };
+		AF292CFB717BDF4733B63304 /* abstractPath.C */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = abstractPath.C; sourceTree = SOURCE_ROOT; };
+		B01068593544975193F76414 /* transformer.C */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = transformer.C; sourceTree = SOURCE_ROOT; };
+		B20B67786552587D0202C411 /* drawCorresponder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = drawCorresponder.h; sourceTree = SOURCE_ROOT; };
+		BAD74F0FA160A17A14FFB41B /* rotoPath.C */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = rotoPath.C; sourceTree = SOURCE_ROOT; };
+		BE7594F4B2928576D47F6CF8 /* rotoCurves.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rotoCurves.h; sourceTree = SOURCE_ROOT; };
+		BE85A1E46DA6E63696F817B6 /* liveWire.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = liveWire.h; sourceTree = SOURCE_ROOT; };
+		BEBCB7F5C2291DFC78741FDF /* liveWire.C */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = liveWire.C; sourceTree = SOURCE_ROOT; };
+		C6766F86E49E9C8701C8E637 /* AGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AGL.framework; path = /System/Library/Frameworks/AGL.framework; sourceTree = "<unknown>"; };
+		C819D01337CE8E8253F2E558 /* gcnode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gcnode.h; sourceTree = SOURCE_ROOT; };
+		C9D53C7A53154B349D1B2682 /* imageGraph.C */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = imageGraph.C; sourceTree = SOURCE_ROOT; };
+		D0E5C4FA532119FB6D7D969D /* drawPath.C */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = drawPath.C; sourceTree = SOURCE_ROOT; };
+		D85386F29899D7FF500366DD /* main.C */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.C; sourceTree = SOURCE_ROOT; };
+		DA18A6831232F53228631AD1 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<unknown>"; };
+		DC448965836F7B92A177CCDC /* bezSpline.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = bezSpline.h; path = KLT/bezSpline.h; sourceTree = SOURCE_ROOT; };
+		DD9BB87A6A855FE057D9294A /* interModule.C */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = interModule.C; sourceTree = SOURCE_ROOT; };
+		E1799C1413F022D1F840F890 /* drawCurves.C */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = drawCurves.C; sourceTree = SOURCE_ROOT; };
+		E1DF7B15C19A31DB06ADB4A6 /* Stroke.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Stroke.cpp; path = hertzStrokes/Stroke.cpp; sourceTree = SOURCE_ROOT; };
+		E2F66B791D38C37CAAD7F353 /* drawContCorr.C */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = drawContCorr.C; sourceTree = SOURCE_ROOT; };
+		EAC8DD86ED352FF4F05C1726 /* Texture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Texture.h; sourceTree = SOURCE_ROOT; };
+		EADD74948EDE171424D7DA78 /* main.pro */ = {isa = PBXFileReference; lastKnownFileType = text; path = main.pro; sourceTree = SOURCE_ROOT; };
+		EDE3EB372D61CC2EE0BA1F4A /* moc_interModule.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = moc_interModule.cpp; sourceTree = SOURCE_ROOT; };
+		FAACDFF327016C353CD1A186 /* mymainwindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mymainwindow.h; sourceTree = SOURCE_ROOT; };
+		FECBF5ECBB898CFC1CA52B81 /* transformer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = transformer.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A1043669E6E5A7426EA502A /* Frameworks & Libraries */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCEF71E1EDFB18DA77DC750B /* OpenGL.framework in Frameworks & Libraries */,
+				3AF92CB8167C90F100E26B98 /* QtOpenGL.framework in Frameworks & Libraries */,
+				0C6D4628EE0B0D1479A20551 /* AGL.framework in Frameworks & Libraries */,
+				DC0712966F14BC1E6B48B4D9 /* QtGui.framework in Frameworks & Libraries */,
+				33AA8E9BF2C18FE5C87A8E3E /* QtCore.framework in Frameworks & Libraries */,
+			);
+			name = "Frameworks & Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05596AB53D8D521C69802C27 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				FB61758D0F0FDA4BA867C3D5 /* Sources */,
+				46E892BBB6BB6952967E0561 /* Temporary Sources */,
+				883D7615C4D2DE3FA1218F12 /* Headers */,
+				7CABE3C80E79AD2B307756D2 /* Sources [qmake] */,
+				ED1E82605DD74B483AF3C982 /* External Frameworks and Libraries */,
+				3AF92CAC167C88EC00E26B98 /* Products */,
+			);
+			name = main;
+			sourceTree = "<unknown>";
+		};
+		0E254007E7A9BB6B5A08F025 /* myCurveFit */ = {
+			isa = PBXGroup;
+			children = (
+				29A6FDB286E21B4FFD41B2D3 /* FitCurves.c */,
+				5A86643375EE297D9D6AE202 /* GGVecLib.c */,
+			);
+			name = myCurveFit;
+			sourceTree = SOURCE_ROOT;
+		};
+		3AF92CAC167C88EC00E26B98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3AF92CAB167C88EC00E26B98 /* main.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		422E9F474AF0E43C48BD6B1E /* myCurveFit */ = {
+			isa = PBXGroup;
+			children = (
+				7901EEFF4D68FE209CADC09E /* FitCurves.h */,
+			);
+			name = myCurveFit;
+			sourceTree = SOURCE_ROOT;
+		};
+		46E892BBB6BB6952967E0561 /* Temporary Sources */ = {
+			isa = PBXGroup;
+			children = (
+				0B1E2AAFA76EF9D21D04C4DF /* moc_mymainwindow.cpp */,
+				775CA770B58CB9AE910027A6 /* moc_centralWidget.cpp */,
+				1E1C4355B3E2814211FC3341 /* moc_rotoscope.cpp */,
+				AE7F46039BD293769C56DDF9 /* moc_liveWire.cpp */,
+				5BF4A0D34921F99FEF1C3B22 /* moc_draw.cpp */,
+				EDE3EB372D61CC2EE0BA1F4A /* moc_interModule.cpp */,
+				5653E7A75D471A9F4948704E /* moc_rangeDialog.cpp */,
+			);
+			name = "Temporary Sources";
+			sourceTree = SOURCE_ROOT;
+		};
+		7CABE3C80E79AD2B307756D2 /* Sources [qmake] */ = {
+			isa = PBXGroup;
+			children = (
+				EADD74948EDE171424D7DA78 /* main.pro */,
+			);
+			name = "Sources [qmake]";
+			sourceTree = SOURCE_ROOT;
+		};
+		883D7615C4D2DE3FA1218F12 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				FAACDFF327016C353CD1A186 /* mymainwindow.h */,
+				1E2B80982D5ECC076E7CA3A1 /* centralWidget.h */,
+				3586B223A12C2B7D57CFA18D /* imgSequence.h */,
+				484E8553FE4D8D6E993D56A4 /* rotoscope.h */,
+				5B2F48154E4A4218C4BFD480 /* dynArray.h */,
+				382042EE7E5F27E0046F00E5 /* jl_vectors.h */,
+				2C7685E8D80E5E58F836D682 /* llist.h */,
+				57BB0CE027BBF89CE955A7C0 /* geigerCorresponder.h */,
+				4C8E6A9F994A81C9078E4CD3 /* imageGraph.h */,
+				BE85A1E46DA6E63696F817B6 /* liveWire.h */,
+				245FF9BA63D7C2A5EE035B6E /* heap.h */,
+				BE7594F4B2928576D47F6CF8 /* rotoCurves.h */,
+				0F8049AFB4A49FA7600FF04E /* corresponder.h */,
+				6F6C985BABA3CE11B77E1095 /* rotoCorresponder.h */,
+				958E5BBB5518F91D65325D83 /* draw.h */,
+				864C46CEA44A5E0BB3EEB345 /* drawPath.h */,
+				0404E0E9F85BA6E8BD58129C /* drawCurves.h */,
+				8F8DABB45E835E830C4E31C5 /* rotoPath.h */,
+				5D88EE4B8D64BE95A05B0066 /* abstractPath.h */,
+				8B5ACD259175C2DD993C72FE /* interModule.h */,
+				422E9F474AF0E43C48BD6B1E /* myCurveFit */,
+				56B35ED36D6E084B164CAA10 /* bBoxf2D.h */,
+				B4409DA45EC20570E2876CC8 /* KLT */,
+				1EE4568A25034C0C924D4CBE /* rangeDialog.h */,
+				B20B67786552587D0202C411 /* drawCorresponder.h */,
+				C819D01337CE8E8253F2E558 /* gcnode.h */,
+				AB29C5280C98AD2587B99F02 /* pixmaps.h */,
+				AB57110E164929E7FD13C8D7 /* joint.h */,
+				EAC8DD86ED352FF4F05C1726 /* Texture.h */,
+				CC9B42DA0F610F83A7A230E1 /* hertzStrokes */,
+				6C1E7460EDBDF867D8201C4F /* trackGraph.h */,
+				84CF2BC6DA466474CEBE7DFE /* drawContCorr.h */,
+				FECBF5ECBB898CFC1CA52B81 /* transformer.h */,
+				9BF50B54F3CF5E27A5B9FBC6 /* rotoRegion.h */,
+			);
+			name = Headers;
+			sourceTree = SOURCE_ROOT;
+		};
+		B4409DA45EC20570E2876CC8 /* KLT */ = {
+			isa = PBXGroup;
+			children = (
+				5C6D4AA3D898328F1D90B892 /* klt.h */,
+				3F2AE507823E1715B4E0F3CE /* contCorr.h */,
+				DC448965836F7B92A177CCDC /* bezSpline.h */,
+				5F8C33778550DC87DA50F7F9 /* talkFitCurve.h */,
+			);
+			name = KLT;
+			sourceTree = SOURCE_ROOT;
+		};
+		B61BA1B71B4413551873A39C /* hertzStrokes */ = {
+			isa = PBXGroup;
+			children = (
+				E1DF7B15C19A31DB06ADB4A6 /* Stroke.cpp */,
+				144DF3355BD53DA72904969B /* bitmap.cpp */,
+			);
+			name = hertzStrokes;
+			sourceTree = SOURCE_ROOT;
+		};
+		CC9B42DA0F610F83A7A230E1 /* hertzStrokes */ = {
+			isa = PBXGroup;
+			children = (
+				238236069E77B883B1322944 /* Stroke.h */,
+				72B26123ED5FDED0411C412B /* bitmap.h */,
+			);
+			name = hertzStrokes;
+			sourceTree = SOURCE_ROOT;
+		};
+		ED1E82605DD74B483AF3C982 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				3AF92CB6167C90E600E26B98 /* QtOpenGL.framework */,
+				DA18A6831232F53228631AD1 /* OpenGL.framework */,
+				C6766F86E49E9C8701C8E637 /* AGL.framework */,
+				774A4788C0271AA619066823 /* QtGui.framework */,
+				2E131938C8C591929B676F3B /* QtCore.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = SOURCE_ROOT;
+		};
+		FB61758D0F0FDA4BA867C3D5 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				D85386F29899D7FF500366DD /* main.C */,
+				1E9FDFCE8BADCAD77BC32199 /* mymainwindow.C */,
+				4D61C00057F742A4B3C6D60C /* centralWidget.C */,
+				18373EF8BC6741F1FB0F33E5 /* rotoscope.C */,
+				C9D53C7A53154B349D1B2682 /* imageGraph.C */,
+				BEBCB7F5C2291DFC78741FDF /* liveWire.C */,
+				3AAE03A6B75CD7D656A17D9D /* rotoCurves.C */,
+				1C3F5EDA4203CE437CD5018F /* imgSequence.C */,
+				3AB468581E9140BF8C1160D3 /* corresponder.C */,
+				14B324BAE74658F0E3E82013 /* draw.C */,
+				D0E5C4FA532119FB6D7D969D /* drawPath.C */,
+				E1799C1413F022D1F840F890 /* drawCurves.C */,
+				BAD74F0FA160A17A14FFB41B /* rotoPath.C */,
+				B61BA1B71B4413551873A39C /* hertzStrokes */,
+				66F694AFF260E922F9100D3A /* geigerCorresponder.C */,
+				AF292CFB717BDF4733B63304 /* abstractPath.C */,
+				DD9BB87A6A855FE057D9294A /* interModule.C */,
+				0E254007E7A9BB6B5A08F025 /* myCurveFit */,
+				4484CCC814476DB68E579103 /* rangeDialog.C */,
+				1F85469831A40A1007005BB4 /* drawCorresponder.C */,
+				990CA6FD34A28B946B0D3A00 /* rotoCorresponder.C */,
+				747BC8E3CAA71EEB1DBA1BB5 /* Texture.C */,
+				18D13E09054F3FBFE8E5A092 /* trackGraph.C */,
+				E2F66B791D38C37CAAD7F353 /* drawContCorr.C */,
+				B01068593544975193F76414 /* transformer.C */,
+				73FF199AD36784A7825E1F70 /* rotoRegion.C */,
+			);
+			name = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD43A12A6B70BE56775A6D65 /* main */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17B3380A4D6A7D415E7F2E1E /* Build configuration list for PBXNativeTarget "main" */;
+			buildPhases = (
+				3AF92CAF167C8A5300E26B98 /* ShellScript */,
+				3AF92CB0167C8D5900E26B98 /* ShellScript */,
+				A0A52A2ADF7A1E2A99738674 /* Qt Preprocessors */,
+				C29B8785722055ED95EF7B57 /* Build Sources */,
+				2A1043669E6E5A7426EA502A /* Frameworks & Libraries */,
+				3787F99312C85FF0073FD7BA /* Bundle Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = main;
+			productName = main;
+			productReference = 3AF92CAB167C88EC00E26B98 /* main.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91B15E841AA80083484172DE /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = CC82A9286117DFED018F418F /* Build configuration list for PBXProject "Roto" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 05596AB53D8D521C69802C27 /* main */;
+			productRefGroup = 3AF92CAC167C88EC00E26B98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD43A12A6B70BE56775A6D65 /* main */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3787F99312C85FF0073FD7BA /* Bundle Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Bundle Resources";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3AF92CAF167C8A5300E26B98 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/mymainwindow.C",
+				"$(SRCROOT)/centralWidget.C",
+				"$(SRCROOT)/rotoscope.C",
+				"$(SRCROOT)/liveWire.C",
+				"$(SRCROOT)/draw.C",
+				"$(SRCROOT)/interModule.C",
+				"$(SRCROOT)/rangeDialog.C",
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/moc_mymainwindow.cpp",
+				"$(DERIVED_FILE_DIR)/moc_centralWidget.cpp",
+				"$(DERIVED_FILE_DIR)/moc_rotoscope.cpp",
+				"$(DERIVED_FILE_DIR)/moc_liveWire.cpp",
+				"$(DERIVED_FILE_DIR)/moc_draw.cpp",
+				"$(DERIVED_FILE_DIR)/moc_interModule.cpp",
+				"$(DERIVED_FILE_DIR)/moc_rangeDialog.cpp",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "moc mymainwindow.h -o moc_mymainwindow.cpp\nmoc centralWidget.h -o moc_centralWidget.cpp\nmoc rotoscope.h -o moc_rotoscope.cpp\nmoc liveWire.h -o moc_liveWire.cpp\nmoc draw.h -o moc_interModule.cpp\nmoc rangeDialog.h -o moc_rangeDialog.cpp";
+		};
+		3AF92CB0167C8D5900E26B98 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/bberman/Dropbox/Roto -f 'Roto.xcodeproj/qt_makeqmake.mak'";
+		};
+		A0A52A2ADF7A1E2A99738674 /* Qt Preprocessors */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Qt Preprocessors";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/bberman/Dropbox/Roto -f 'Roto.xcodeproj/qt_preprocess.mak'";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C29B8785722055ED95EF7B57 /* Build Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20861094DB8CC110B211E1C1 /* main.C in Build Sources */,
+				E79206B176C1D6A57EF6676A /* mymainwindow.C in Build Sources */,
+				0A0CD9626BBD59A1FEB04B9F /* centralWidget.C in Build Sources */,
+				459464E74F161BDC013BD338 /* rotoscope.C in Build Sources */,
+				2F59F158D77C694FDCA826D6 /* imageGraph.C in Build Sources */,
+				9A4CEEE028C53E5C732C4B81 /* liveWire.C in Build Sources */,
+				FCC90797DD340AE33E746BF9 /* rotoCurves.C in Build Sources */,
+				40CBB4388CD38CB1BE75C4E3 /* imgSequence.C in Build Sources */,
+				94B5C68DD54A070A71CB0BBA /* corresponder.C in Build Sources */,
+				0812196E4A5D65A080D1C90F /* draw.C in Build Sources */,
+				EC2D97D97F64E66CD0F2DAB1 /* drawPath.C in Build Sources */,
+				B2C4611B0C35BFF92EF742A6 /* drawCurves.C in Build Sources */,
+				A493882AD75B5DBB9C5B4D56 /* rotoPath.C in Build Sources */,
+				53C67D5E8BA8E7D04B0A3787 /* Stroke.cpp in Build Sources */,
+				2477D736ACD299B3B5754318 /* geigerCorresponder.C in Build Sources */,
+				7336B1C26C368A99AECDB71F /* abstractPath.C in Build Sources */,
+				AB133293B9FAE28AD8DE8FC3 /* interModule.C in Build Sources */,
+				FEEACF213CCF74726D787D1A /* FitCurves.c in Build Sources */,
+				497FAB748ADA41DA962F4539 /* GGVecLib.c in Build Sources */,
+				9B41A8A0D31DC8604D3419DD /* rangeDialog.C in Build Sources */,
+				A95D0867ADD249262EB2BA82 /* drawCorresponder.C in Build Sources */,
+				FF252CE86C9A70FC989F799D /* rotoCorresponder.C in Build Sources */,
+				93BD556D16095BE8D42442FB /* Texture.C in Build Sources */,
+				D3DC9E1C5BDB2B0F1568FE1D /* bitmap.cpp in Build Sources */,
+				150843C6AF2B1717A8CD186D /* trackGraph.C in Build Sources */,
+				177976504C55E24138205D4B /* drawContCorr.C in Build Sources */,
+				D3F6722D5F90A8892720104E /* transformer.C in Build Sources */,
+				74D3BC07216CA40F00DE94DA /* rotoRegion.C in Build Sources */,
+				819A96660B65F9A12202F539 /* moc_mymainwindow.cpp in Build Sources */,
+				783C68FE30F1F361101DEA3B /* moc_centralWidget.cpp in Build Sources */,
+				765A1CF3C94241D87AC2CF8A /* moc_rotoscope.cpp in Build Sources */,
+				D24F52AE66F57430E7CADA44 /* moc_liveWire.cpp in Build Sources */,
+				5B1E9DA6D912F8DAE6688856 /* moc_draw.cpp in Build Sources */,
+				3FD4A56039EBCA7C4FAF8D1B /* moc_interModule.cpp in Build Sources */,
+				B87B915F0CB0A6376ABB4C62 /* moc_rangeDialog.cpp in Build Sources */,
+			);
+			name = "Build Sources";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4B72B24813252891014BCF61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					/usr/local/Cellar/qt/4.8.3/lib,
+					/usr/local/Cellar/qt/4.8.3/lib,
+					/usr/local/Cellar/qt/4.8.3/lib,
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/Cellar/qt/4.8.3/lib/QtCore.framework/Versions/4/Headers,
+					/usr/local/Cellar/qt/4.8.3/lib/QtCore.framework/Versions/4/Headers,
+					/usr/local/Cellar/qt/4.8.3/lib/QtGui.framework/Versions/4/Headers,
+					/usr/local/Cellar/qt/4.8.3/lib/QtGui.framework/Versions/4/Headers,
+					/usr/local/Cellar/qt/4.8.3/include,
+					myCurveFit,
+					/homes/gws/aseem/boost,
+					/System/Library/Frameworks/OpenGL.framework/Versions/A/Headers,
+					/System/Library/Frameworks/AGL.framework/Headers,
+					.,
+					/usr/local/include,
+					/System/Library/Frameworks/CarbonCore.framework/Headers,
+					"/usr/local/Cellar/qt/4.8.3/mkspecs/macx-xcode",
+				);
+				INFOPLIST_FILE = Info.plist;
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/Cellar/qt/4.8.3/lib,
+					/System/Library/Frameworks/,
+					/usr/local/Cellar/qt/4.8.3/lib,
+				);
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-O2",
+					"-Wall",
+					"-W",
+					"-DQT_NO_DEBUG",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_SHARED",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-O2",
+					"-DNDEBUG",
+					"-Wall",
+					"-W",
+					"-DQT_NO_DEBUG",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_SHARED",
+				);
+				OTHER_LDFLAGS = (
+					"-headerpad_max_install_names",
+					"-L/usr/local/Cellar/qt/4.8.3/lib",
+					"-F/usr/local/Cellar/qt/4.8.3/lib",
+					KLT/libKLT.a,
+					"-L/usr/local/Cellar/qt/4.8.3/lib",
+					"-F/usr/local/Cellar/qt/4.8.3/lib",
+				);
+				PRODUCT_NAME = main;
+			};
+			name = Debug;
+		};
+		8C7174830A1E4DCBA0332EC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/lib,
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/Cellar/qt/4.8.3/lib/QtCore.framework/Versions/4/Headers,
+					/usr/local/Cellar/qt/4.8.3/lib/QtCore.framework/Versions/4/Headers,
+					/usr/local/Cellar/qt/4.8.3/lib/QtGui.framework/Versions/4/Headers,
+					/usr/local/Cellar/qt/4.8.3/lib/QtGui.framework/Versions/4/Headers,
+					/usr/local/Cellar/qt/4.8.3/lib/QtOpenGL.framework/Versions/4/Headers,
+					/usr/local/Cellar/qt/4.8.3/include,
+					myCurveFit,
+					/usr/local/Cellar/boost/1.52.0/include/boost,
+					/System/Library/Frameworks/OpenGL.framework/Versions/A/Headers,
+					/System/Library/Frameworks/AGL.framework/Headers,
+					.,
+					/usr/local/include,
+					/System/Library/Frameworks/CarbonCore.framework/Headers,
+					"/usr/local/Cellar/qt/4.8.3/mkspecs/macx-xcode",
+				);
+				PRODUCT_NAME = main;
+			};
+			name = Release;
+		};
+		BEC09A62E69C3553534FF35E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/lib,
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/Cellar/qt/4.8.3/lib/QtCore.framework/Versions/4/Headers,
+					/usr/local/Cellar/qt/4.8.3/lib/QtCore.framework/Versions/4/Headers,
+					/usr/local/Cellar/qt/4.8.3/lib/QtGui.framework/Versions/4/Headers,
+					/usr/local/Cellar/qt/4.8.3/lib/QtGui.framework/Versions/4/Headers,
+					/usr/local/Cellar/qt/4.8.3/lib/QtOpenGL.framework/Versions/4/Headers,
+					/usr/local/Cellar/qt/4.8.3/include,
+					myCurveFit,
+					/usr/local/Cellar/boost/1.52.0/include/boost,
+					/System/Library/Frameworks/OpenGL.framework/Versions/A/Headers,
+					/System/Library/Frameworks/AGL.framework/Headers,
+					.,
+					/usr/local/include,
+					/System/Library/Frameworks/CarbonCore.framework/Headers,
+					"/usr/local/Cellar/qt/4.8.3/mkspecs/macx-xcode",
+				);
+				PRODUCT_NAME = main;
+			};
+			name = Debug;
+		};
+		D70590BEB531B51029F711BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					/usr/local/Cellar/qt/4.8.3/lib,
+					/usr/local/Cellar/qt/4.8.3/lib,
+					/usr/local/Cellar/qt/4.8.3/lib,
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/Cellar/qt/4.8.3/lib/QtCore.framework/Versions/4/Headers,
+					/usr/local/Cellar/qt/4.8.3/lib/QtCore.framework/Versions/4/Headers,
+					/usr/local/Cellar/qt/4.8.3/lib/QtGui.framework/Versions/4/Headers,
+					/usr/local/Cellar/qt/4.8.3/lib/QtGui.framework/Versions/4/Headers,
+					/usr/local/Cellar/qt/4.8.3/include,
+					myCurveFit,
+					/homes/gws/aseem/boost,
+					/System/Library/Frameworks/OpenGL.framework/Versions/A/Headers,
+					/System/Library/Frameworks/AGL.framework/Headers,
+					.,
+					/usr/local/include,
+					/System/Library/Frameworks/CarbonCore.framework/Headers,
+					"/usr/local/Cellar/qt/4.8.3/mkspecs/macx-xcode",
+				);
+				INFOPLIST_FILE = Info.plist;
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/Cellar/qt/4.8.3/lib,
+					/System/Library/Frameworks/,
+					/usr/local/Cellar/qt/4.8.3/lib,
+				);
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-O2",
+					"-Wall",
+					"-W",
+					"-DQT_NO_DEBUG",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_SHARED",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-O2",
+					"-DNDEBUG",
+					"-Wall",
+					"-W",
+					"-DQT_NO_DEBUG",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_SHARED",
+				);
+				OTHER_LDFLAGS = (
+					"-headerpad_max_install_names",
+					"-L/usr/local/Cellar/qt/4.8.3/lib",
+					"-F/usr/local/Cellar/qt/4.8.3/lib",
+					KLT/libKLT.a,
+					"-L/usr/local/Cellar/qt/4.8.3/lib",
+					"-F/usr/local/Cellar/qt/4.8.3/lib",
+				);
+				PRODUCT_NAME = main;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17B3380A4D6A7D415E7F2E1E /* Build configuration list for PBXNativeTarget "main" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEC09A62E69C3553534FF35E /* Debug */,
+				8C7174830A1E4DCBA0332EC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC82A9286117DFED018F418F /* Build configuration list for PBXProject "Roto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B72B24813252891014BCF61 /* Debug */,
+				D70590BEB531B51029F711BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91B15E841AA80083484172DE /* Project object */;
+}

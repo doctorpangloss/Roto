@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		136877E8D333A640A5AB1A63 /* diagMatrix.C in Build Sources */ = {isa = PBXBuildFile; fileRef = 1213C043416C57A08F55E485 /* diagMatrix.C */; settings = {ATTRIBUTES = (); }; };
+		1718DC30E45EFB3049AC6467 /* bezSpline.C in Build Sources */ = {isa = PBXBuildFile; fileRef = EBB1275B0BD6D57130BCB174 /* bezSpline.C */; settings = {ATTRIBUTES = (); }; };
+		1D324CD760E7AB0B6CBB90E8 /* klt.C in Build Sources */ = {isa = PBXBuildFile; fileRef = B454E4E441528FE161DBBC70 /* klt.C */; settings = {ATTRIBUTES = (); }; };
+		28BA2A35B58BD936C3844DB3 /* buildingSplineKeeper.C in Build Sources */ = {isa = PBXBuildFile; fileRef = 3D49CEB0BD8422697F274B34 /* buildingSplineKeeper.C */; settings = {ATTRIBUTES = (); }; };
+		2D856640FE3D3F851F186790 /* HB_OneCurve.C in Build Sources */ = {isa = PBXBuildFile; fileRef = 7B3658EDF5FE6904788961D0 /* HB_OneCurve.C */; settings = {ATTRIBUTES = (); }; };
+		2DDAA69A47EA26E2FC4CDD6F /* splineKeeper.C in Build Sources */ = {isa = PBXBuildFile; fileRef = 2FD370E5125AC9F150277429 /* splineKeeper.C */; settings = {ATTRIBUTES = (); }; };
+		3AF92CA2167C7DD200E26B98 /* OpenGL.framework in Frameworks & Libraries */ = {isa = PBXBuildFile; fileRef = 3AF92C9F167C7DB800E26B98 /* OpenGL.framework */; };
+		3AF92CA7167C7F6900E26B98 /* QtCore.framework in Frameworks & Libraries */ = {isa = PBXBuildFile; fileRef = 3AF92CA5167C7F6900E26B98 /* QtCore.framework */; };
+		3AF92CA8167C7F6900E26B98 /* QtGui.framework in Frameworks & Libraries */ = {isa = PBXBuildFile; fileRef = 3AF92CA6167C7F6900E26B98 /* QtGui.framework */; };
+		49753FFABF31A9997D5231A8 /* linearSolver.C in Build Sources */ = {isa = PBXBuildFile; fileRef = 7186BBB3FBCC2CDA02CB3D0D /* linearSolver.C */; settings = {ATTRIBUTES = (); }; };
+		728DD07AC9F525A996F9EB61 /* klt_util.C in Build Sources */ = {isa = PBXBuildFile; fileRef = E866C588ACFD1DEA92CC8457 /* klt_util.C */; settings = {ATTRIBUTES = (); }; };
+		7425CD6508B35F27C577B1C7 /* pyramid.C in Build Sources */ = {isa = PBXBuildFile; fileRef = 9B16B8AEF3F9B50E1C3ECF19 /* pyramid.C */; settings = {ATTRIBUTES = (); }; };
+		88625124C45A444766EDF986 /* kltSpline.C in Build Sources */ = {isa = PBXBuildFile; fileRef = 4273AE93B5FA9776DEBC5C1B /* kltSpline.C */; settings = {ATTRIBUTES = (); }; };
+		8999E7E90049E5F17A5F54FA /* obsCache.C in Build Sources */ = {isa = PBXBuildFile; fileRef = 802DB55A597C18A79945C7B4 /* obsCache.C */; settings = {ATTRIBUTES = (); }; };
+		A2B2011C5226A4369D2FF79E /* multiKeeper.C in Build Sources */ = {isa = PBXBuildFile; fileRef = 67892B3BB791AB7339E8A3AA /* multiKeeper.C */; settings = {ATTRIBUTES = (); }; };
+		AC09EF996968A4432FB0581C /* mysparsemat.C in Build Sources */ = {isa = PBXBuildFile; fileRef = E4191F6AAB458143F1A23F49 /* mysparsemat.C */; settings = {ATTRIBUTES = (); }; };
+		B3BD78FCC907D6749D5F5AB5 /* multiSplineData.C in Build Sources */ = {isa = PBXBuildFile; fileRef = FAB07E52EFE07EC3402BDB21 /* multiSplineData.C */; settings = {ATTRIBUTES = (); }; };
+		BF15B45660C9AB0311FB05FA /* multiDiagMatrix.C in Build Sources */ = {isa = PBXBuildFile; fileRef = A7804F628FEA650F10AC27C8 /* multiDiagMatrix.C */; settings = {ATTRIBUTES = (); }; };
+		C05C0B8397F079D9BC444309 /* keeper.C in Build Sources */ = {isa = PBXBuildFile; fileRef = 8E941F14580B3BC5C745A149 /* keeper.C */; settings = {ATTRIBUTES = (); }; };
+		C1874D7A8493F5B98C38FB1A /* error.c in Build Sources */ = {isa = PBXBuildFile; fileRef = 891CD3F9C21689D00CB1AD51 /* error.c */; settings = {ATTRIBUTES = (); }; };
+		CE0BBC5FCA2FA1E5904245C4 /* contCorr.C in Build Sources */ = {isa = PBXBuildFile; fileRef = 6075C717FA08BCFCF771D89D /* contCorr.C */; settings = {ATTRIBUTES = (); }; };
+		EAA64004807BC7398E252E86 /* kernels.C in Build Sources */ = {isa = PBXBuildFile; fileRef = 585C50686C5FE0CE774480CE /* kernels.C */; settings = {ATTRIBUTES = (); }; };
+		F2A1CAC2B461D94C849D3642 /* HB_Sweep.C in Build Sources */ = {isa = PBXBuildFile; fileRef = CB4F14ADBCC71E96F2F50211 /* HB_Sweep.C */; settings = {ATTRIBUTES = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05CB9D5C8534F4777F912369 /* cubicEval.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cubicEval.h; sourceTree = SOURCE_ROOT; };
+		0D819A6C42B2C6E3529AE101 /* HB_OneCurve.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HB_OneCurve.h; sourceTree = SOURCE_ROOT; };
+		1213C043416C57A08F55E485 /* diagMatrix.C */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = diagMatrix.C; sourceTree = SOURCE_ROOT; };
+		19820BD4B5C6334B821E7245 /* base.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = base.h; sourceTree = SOURCE_ROOT; };
+		219139FE42EB6677A57B3DD6 /* klt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = klt.h; sourceTree = SOURCE_ROOT; };
+		2FD370E5125AC9F150277429 /* splineKeeper.C */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = splineKeeper.C; sourceTree = SOURCE_ROOT; };
+		3A7F7CDBF06E6B0C4B8688D4 /* linearSolver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = linearSolver.h; sourceTree = SOURCE_ROOT; };
+		3AF92C66167C7BC000E26B98 /* libKLT.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKLT.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AF92C9F167C7DB800E26B98 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/OpenGL.framework; sourceTree = DEVELOPER_DIR; };
+		3AF92CA5167C7F6900E26B98 /* QtCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtCore.framework; path = /usr/local/Cellar/qt/4.8.3/lib/QtCore.framework; sourceTree = "<absolute>"; };
+		3AF92CA6167C7F6900E26B98 /* QtGui.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtGui.framework; path = /usr/local/Cellar/qt/4.8.3/lib/QtGui.framework; sourceTree = "<absolute>"; };
+		3BF2FE406DEE7FF0BD75CB34 /* multiKeeper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = multiKeeper.h; sourceTree = SOURCE_ROOT; };
+		3D49CEB0BD8422697F274B34 /* buildingSplineKeeper.C */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = buildingSplineKeeper.C; sourceTree = SOURCE_ROOT; };
+		3FA4D0264FA3CFFB262FBA0A /* debugJac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = debugJac.h; sourceTree = SOURCE_ROOT; };
+		41A589B860969AB5A248434D /* obsCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = obsCache.h; sourceTree = SOURCE_ROOT; };
+		4273AE93B5FA9776DEBC5C1B /* kltSpline.C */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = kltSpline.C; sourceTree = SOURCE_ROOT; };
+		542F828133E1E6BD1647E55F /* pyramid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pyramid.h; sourceTree = SOURCE_ROOT; };
+		57481ABD7C5E14795BC268A8 /* genKeeper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = genKeeper.h; sourceTree = SOURCE_ROOT; };
+		585C50686C5FE0CE774480CE /* kernels.C */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = kernels.C; sourceTree = SOURCE_ROOT; };
+		5F0AFA70329E695F3B76291F /* HB_Sweep.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HB_Sweep.h; sourceTree = SOURCE_ROOT; };
+		6075C717FA08BCFCF771D89D /* contCorr.C */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = contCorr.C; sourceTree = SOURCE_ROOT; };
+		67892B3BB791AB7339E8A3AA /* multiKeeper.C */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = multiKeeper.C; sourceTree = SOURCE_ROOT; };
+		6B158201B834BFDE612D1894 /* keeper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = keeper.h; sourceTree = SOURCE_ROOT; };
+		6D195B602FCE5F2CF6B0A08C /* multiDiagMatrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = multiDiagMatrix.h; sourceTree = SOURCE_ROOT; };
+		7186BBB3FBCC2CDA02CB3D0D /* linearSolver.C */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = linearSolver.C; sourceTree = SOURCE_ROOT; };
+		7B3658EDF5FE6904788961D0 /* HB_OneCurve.C */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HB_OneCurve.C; sourceTree = SOURCE_ROOT; };
+		802DB55A597C18A79945C7B4 /* obsCache.C */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = obsCache.C; sourceTree = SOURCE_ROOT; };
+		890C33A6C6C5844CD7A8F7A4 /* kernels.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kernels.h; sourceTree = SOURCE_ROOT; };
+		891CD3F9C21689D00CB1AD51 /* error.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = error.c; sourceTree = SOURCE_ROOT; };
+		8B92F84C7C030E29566A098D /* multiTrackData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = multiTrackData.h; sourceTree = SOURCE_ROOT; };
+		8E941F14580B3BC5C745A149 /* keeper.C */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = keeper.C; sourceTree = SOURCE_ROOT; };
+		9492609A11A0F459DD04C0B5 /* splineKeeper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = splineKeeper.h; sourceTree = SOURCE_ROOT; };
+		9A88FEC22FA7DA7AD16A7D2C /* buildingSplineKeeper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = buildingSplineKeeper.h; sourceTree = SOURCE_ROOT; };
+		9B16B8AEF3F9B50E1C3ECF19 /* pyramid.C */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pyramid.C; sourceTree = SOURCE_ROOT; };
+		9BB3FCA4FE63C346C52E53E3 /* bezSpline.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bezSpline.h; sourceTree = SOURCE_ROOT; };
+		A7804F628FEA650F10AC27C8 /* multiDiagMatrix.C */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = multiDiagMatrix.C; sourceTree = SOURCE_ROOT; };
+		AE867AB0289F1B4E4E31186D /* samples.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = samples.h; sourceTree = SOURCE_ROOT; };
+		AE91769323D9CEAAF5183C46 /* kltSpline.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kltSpline.h; sourceTree = SOURCE_ROOT; };
+		B454E4E441528FE161DBBC70 /* klt.C */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = klt.C; sourceTree = SOURCE_ROOT; };
+		B76C1376AF4AD916D58B5985 /* myMontage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = myMontage.h; sourceTree = SOURCE_ROOT; };
+		B8C63F19A6C07A2EF79AED39 /* contEdgeMin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = contEdgeMin.h; sourceTree = SOURCE_ROOT; };
+		BDB2E12A4CFA3D34318969AC /* contCorr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = contCorr.h; sourceTree = SOURCE_ROOT; };
+		CB4F14ADBCC71E96F2F50211 /* HB_Sweep.C */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HB_Sweep.C; sourceTree = SOURCE_ROOT; };
+		D111E1AFA4BD4B5A4CA0C4C7 /* diagMatrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = diagMatrix.h; sourceTree = SOURCE_ROOT; };
+		D8441F7509C3C0C2544F7B23 /* multiSplineData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = multiSplineData.h; sourceTree = SOURCE_ROOT; };
+		E4191F6AAB458143F1A23F49 /* mysparsemat.C */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mysparsemat.C; sourceTree = SOURCE_ROOT; };
+		E866C588ACFD1DEA92CC8457 /* klt_util.C */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = klt_util.C; sourceTree = SOURCE_ROOT; };
+		EADD74948EDE171424D7DA78 /* main.pro */ = {isa = PBXFileReference; lastKnownFileType = text; path = main.pro; sourceTree = SOURCE_ROOT; };
+		EB2444D1652740941669EB59 /* mysparsemat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mysparsemat.h; sourceTree = SOURCE_ROOT; };
+		EBB1275B0BD6D57130BCB174 /* bezSpline.C */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bezSpline.C; sourceTree = SOURCE_ROOT; };
+		F1F6858A6B73CFA87F961644 /* klt_util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = klt_util.h; sourceTree = SOURCE_ROOT; };
+		F46025C4FFCC586A96034730 /* myIMatrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = myIMatrix.h; sourceTree = SOURCE_ROOT; };
+		FAB07E52EFE07EC3402BDB21 /* multiSplineData.C */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = multiSplineData.C; sourceTree = SOURCE_ROOT; };
+		FCC487D771996DC0CA020DE7 /* error.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = error.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A1043669E6E5A7426EA502A /* Frameworks & Libraries */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AF92CA7167C7F6900E26B98 /* QtCore.framework in Frameworks & Libraries */,
+				3AF92CA8167C7F6900E26B98 /* QtGui.framework in Frameworks & Libraries */,
+				3AF92CA2167C7DD200E26B98 /* OpenGL.framework in Frameworks & Libraries */,
+			);
+			name = "Frameworks & Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05596AB53D8D521C69802C27 /* KLT */ = {
+			isa = PBXGroup;
+			children = (
+				3AF92CA1167C7DCD00E26B98 /* Frameworks */,
+				FB61758D0F0FDA4BA867C3D5 /* Sources */,
+				883D7615C4D2DE3FA1218F12 /* Headers */,
+				7CABE3C80E79AD2B307756D2 /* Sources [qmake] */,
+				3AF92C67167C7BC000E26B98 /* Products */,
+			);
+			name = KLT;
+			sourceTree = "<unknown>";
+		};
+		3AF92C67167C7BC000E26B98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3AF92C66167C7BC000E26B98 /* libKLT.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3AF92CA1167C7DCD00E26B98 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3AF92CA5167C7F6900E26B98 /* QtCore.framework */,
+				3AF92CA6167C7F6900E26B98 /* QtGui.framework */,
+				3AF92C9F167C7DB800E26B98 /* OpenGL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7CABE3C80E79AD2B307756D2 /* Sources [qmake] */ = {
+			isa = PBXGroup;
+			children = (
+				EADD74948EDE171424D7DA78 /* main.pro */,
+			);
+			name = "Sources [qmake]";
+			sourceTree = SOURCE_ROOT;
+		};
+		883D7615C4D2DE3FA1218F12 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				19820BD4B5C6334B821E7245 /* base.h */,
+				890C33A6C6C5844CD7A8F7A4 /* kernels.h */,
+				F1F6858A6B73CFA87F961644 /* klt_util.h */,
+				542F828133E1E6BD1647E55F /* pyramid.h */,
+				FCC487D771996DC0CA020DE7 /* error.h */,
+				219139FE42EB6677A57B3DD6 /* klt.h */,
+				B76C1376AF4AD916D58B5985 /* myMontage.h */,
+				9BB3FCA4FE63C346C52E53E3 /* bezSpline.h */,
+				BDB2E12A4CFA3D34318969AC /* contCorr.h */,
+				3A7F7CDBF06E6B0C4B8688D4 /* linearSolver.h */,
+				F46025C4FFCC586A96034730 /* myIMatrix.h */,
+				EB2444D1652740941669EB59 /* mysparsemat.h */,
+				6B158201B834BFDE612D1894 /* keeper.h */,
+				8B92F84C7C030E29566A098D /* multiTrackData.h */,
+				3BF2FE406DEE7FF0BD75CB34 /* multiKeeper.h */,
+				3FA4D0264FA3CFFB262FBA0A /* debugJac.h */,
+				5F0AFA70329E695F3B76291F /* HB_Sweep.h */,
+				0D819A6C42B2C6E3529AE101 /* HB_OneCurve.h */,
+				05CB9D5C8534F4777F912369 /* cubicEval.h */,
+				57481ABD7C5E14795BC268A8 /* genKeeper.h */,
+				D8441F7509C3C0C2544F7B23 /* multiSplineData.h */,
+				9492609A11A0F459DD04C0B5 /* splineKeeper.h */,
+				AE91769323D9CEAAF5183C46 /* kltSpline.h */,
+				B8C63F19A6C07A2EF79AED39 /* contEdgeMin.h */,
+				9A88FEC22FA7DA7AD16A7D2C /* buildingSplineKeeper.h */,
+				D111E1AFA4BD4B5A4CA0C4C7 /* diagMatrix.h */,
+				6D195B602FCE5F2CF6B0A08C /* multiDiagMatrix.h */,
+				41A589B860969AB5A248434D /* obsCache.h */,
+				AE867AB0289F1B4E4E31186D /* samples.h */,
+			);
+			name = Headers;
+			sourceTree = SOURCE_ROOT;
+		};
+		FB61758D0F0FDA4BA867C3D5 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				B454E4E441528FE161DBBC70 /* klt.C */,
+				891CD3F9C21689D00CB1AD51 /* error.c */,
+				585C50686C5FE0CE774480CE /* kernels.C */,
+				E866C588ACFD1DEA92CC8457 /* klt_util.C */,
+				9B16B8AEF3F9B50E1C3ECF19 /* pyramid.C */,
+				7186BBB3FBCC2CDA02CB3D0D /* linearSolver.C */,
+				E4191F6AAB458143F1A23F49 /* mysparsemat.C */,
+				8E941F14580B3BC5C745A149 /* keeper.C */,
+				67892B3BB791AB7339E8A3AA /* multiKeeper.C */,
+				CB4F14ADBCC71E96F2F50211 /* HB_Sweep.C */,
+				7B3658EDF5FE6904788961D0 /* HB_OneCurve.C */,
+				EBB1275B0BD6D57130BCB174 /* bezSpline.C */,
+				FAB07E52EFE07EC3402BDB21 /* multiSplineData.C */,
+				2FD370E5125AC9F150277429 /* splineKeeper.C */,
+				4273AE93B5FA9776DEBC5C1B /* kltSpline.C */,
+				6075C717FA08BCFCF771D89D /* contCorr.C */,
+				3D49CEB0BD8422697F274B34 /* buildingSplineKeeper.C */,
+				1213C043416C57A08F55E485 /* diagMatrix.C */,
+				A7804F628FEA650F10AC27C8 /* multiDiagMatrix.C */,
+				802DB55A597C18A79945C7B4 /* obsCache.C */,
+			);
+			name = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9A81A6F3FB2E4881F362534 /* KLT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17B3380A4D6A7D415E7F2E1E /* Build configuration list for PBXNativeTarget "KLT" */;
+			buildPhases = (
+				D7BA7D76DAB5DD13389D6332 /* Qt Qmake */,
+				A0A52A2ADF7A1E2A99738674 /* Qt Preprocessors */,
+				C29B8785722055ED95EF7B57 /* Build Sources */,
+				2A1043669E6E5A7426EA502A /* Frameworks & Libraries */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KLT;
+			productName = KLT;
+			productReference = 3AF92C66167C7BC000E26B98 /* libKLT.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91B15E841AA80083484172DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = CC82A9286117DFED018F418F /* Build configuration list for PBXProject "KLT" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 05596AB53D8D521C69802C27 /* KLT */;
+			productRefGroup = 3AF92C67167C7BC000E26B98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9A81A6F3FB2E4881F362534 /* KLT */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A0A52A2ADF7A1E2A99738674 /* Qt Preprocessors */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Qt Preprocessors";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/bberman/Dropbox/Roto/KLT -f 'KLT.xcodeproj/qt_preprocess.mak'";
+		};
+		D7BA7D76DAB5DD13389D6332 /* Qt Qmake */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Qt Qmake";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/bberman/Dropbox/Roto/KLT -f 'KLT.xcodeproj/qt_makeqmake.mak'";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C29B8785722055ED95EF7B57 /* Build Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D324CD760E7AB0B6CBB90E8 /* klt.C in Build Sources */,
+				C1874D7A8493F5B98C38FB1A /* error.c in Build Sources */,
+				EAA64004807BC7398E252E86 /* kernels.C in Build Sources */,
+				728DD07AC9F525A996F9EB61 /* klt_util.C in Build Sources */,
+				7425CD6508B35F27C577B1C7 /* pyramid.C in Build Sources */,
+				49753FFABF31A9997D5231A8 /* linearSolver.C in Build Sources */,
+				AC09EF996968A4432FB0581C /* mysparsemat.C in Build Sources */,
+				C05C0B8397F079D9BC444309 /* keeper.C in Build Sources */,
+				A2B2011C5226A4369D2FF79E /* multiKeeper.C in Build Sources */,
+				F2A1CAC2B461D94C849D3642 /* HB_Sweep.C in Build Sources */,
+				2D856640FE3D3F851F186790 /* HB_OneCurve.C in Build Sources */,
+				1718DC30E45EFB3049AC6467 /* bezSpline.C in Build Sources */,
+				B3BD78FCC907D6749D5F5AB5 /* multiSplineData.C in Build Sources */,
+				2DDAA69A47EA26E2FC4CDD6F /* splineKeeper.C in Build Sources */,
+				88625124C45A444766EDF986 /* kltSpline.C in Build Sources */,
+				CE0BBC5FCA2FA1E5904245C4 /* contCorr.C in Build Sources */,
+				28BA2A35B58BD936C3844DB3 /* buildingSplineKeeper.C in Build Sources */,
+				136877E8D333A640A5AB1A63 /* diagMatrix.C in Build Sources */,
+				BF15B45660C9AB0311FB05FA /* multiDiagMatrix.C in Build Sources */,
+				8999E7E90049E5F17A5F54FA /* obsCache.C in Build Sources */,
+			);
+			name = "Build Sources";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4B72B24813252891014BCF61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = /usr/local/Cellar/qt/4.8.3/lib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/Cellar/qt/4.8.3/lib/QtCore.framework/Versions/4/Headers,
+					/usr/local/Cellar/qt/4.8.3/lib/QtCore.framework/Versions/4/Headers,
+					/usr/local/Cellar/qt/4.8.3/lib/QtGui.framework/Versions/4/Headers,
+					/usr/local/Cellar/qt/4.8.3/lib/QtGui.framework/Versions/4/Headers,
+					/usr/local/Cellar/qt/4.8.3/include,
+					.,
+					/usr/local/include,
+					/System/Library/Frameworks/CarbonCore.framework/Headers,
+					"/usr/local/Cellar/qt/4.8.3/mkspecs/macx-xcode",
+					/usr/local/Cellar/boost/1.52.0/include/boost,
+				);
+				INFOPLIST_FILE = Info.plist;
+				LIBRARY_SEARCH_PATHS = "";
+				MACH_O_TYPE = staticlib;
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-O2",
+					"-fPIC",
+					"-Wall",
+					"-W",
+					"-DQT_NO_DEBUG",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_SHARED",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-O2",
+					"-DNDEBUG",
+					"-ffast-math",
+					"-fPIC",
+					"-Wall",
+					"-W",
+					"-DQT_NO_DEBUG",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_SHARED",
+				);
+				PRODUCT_NAME = KLT;
+			};
+			name = Debug;
+		};
+		8C7174830A1E4DCBA0332EC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/qt/4.8.3/lib,
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_VERSION = "";
+				LIBRARY_STYLE = STATIC;
+				PRODUCT_NAME = KLT;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BEC09A62E69C3553534FF35E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/qt/4.8.3/lib,
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_VERSION = "";
+				LIBRARY_STYLE = STATIC;
+				PRODUCT_NAME = KLT;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D70590BEB531B51029F711BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = /usr/local/Cellar/qt/4.8.3/lib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/Cellar/qt/4.8.3/lib/QtCore.framework/Versions/4/Headers,
+					/usr/local/Cellar/qt/4.8.3/lib/QtCore.framework/Versions/4/Headers,
+					/usr/local/Cellar/qt/4.8.3/lib/QtGui.framework/Versions/4/Headers,
+					/usr/local/Cellar/qt/4.8.3/lib/QtGui.framework/Versions/4/Headers,
+					/usr/local/Cellar/qt/4.8.3/include,
+					.,
+					/usr/local/include,
+					/System/Library/Frameworks/CarbonCore.framework/Headers,
+					"/usr/local/Cellar/qt/4.8.3/mkspecs/macx-xcode",
+					/usr/local/Cellar/boost/1.52.0/include/boost,
+				);
+				INFOPLIST_FILE = Info.plist;
+				LIBRARY_SEARCH_PATHS = "";
+				MACH_O_TYPE = staticlib;
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-O2",
+					"-fPIC",
+					"-Wall",
+					"-W",
+					"-DQT_NO_DEBUG",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_SHARED",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-O2",
+					"-DNDEBUG",
+					"-ffast-math",
+					"-fPIC",
+					"-Wall",
+					"-W",
+					"-DQT_NO_DEBUG",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_SHARED",
+				);
+				PRODUCT_NAME = KLT;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17B3380A4D6A7D415E7F2E1E /* Build configuration list for PBXNativeTarget "KLT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEC09A62E69C3553534FF35E /* Debug */,
+				8C7174830A1E4DCBA0332EC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC82A9286117DFED018F418F /* Build configuration list for PBXProject "KLT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B72B24813252891014BCF61 /* Debug */,
+				D70590BEB531B51029F711BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91B15E841AA80083484172DE /* Project object */;
+}
