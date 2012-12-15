@@ -1,0 +1,82 @@
+To run 2 included examples, from the release directory:
+../main refine/frame.param
+../main head/frame.param
+
+To watch tracking on these examples, visit an inbetween frame, select
+all contours by shift-clicking after selecting the "select" tool
+(arrow in toolbar at top), and select "redo track" from the tracking
+menu.  Note that interactive refinement will be necessary to get
+perfect results (see video on project web page for example).
+
+To start from scratch, the arguments are:
+
+<file-root> <start-frame> <end-frame>
+
+So, for example, from the release dir, you can run:
+
+../main amira-queen/frame 28 58
+
+---------------------------------------------------- 
+
+At the top of the interface, from left-to-right, is a frame-navigator,
+a button to toggle between tracking and animating mode (animating mode
+is not documented here), and to reset the zoom.  Then, you may select
+from five tools; draw, select, transform, nudge, and zoom.
+
+From any tool, holding down CTRL will turn that tool into dragging
+tool; allowing you to drag around the image (when zoomed in).
+
+Drawing Splines at keyframes: 
+
+Occurs using the Draw tool, and is similar to the Adobe Illustrator
+approach to drawing cubic, Bezier splines with multiple segments.
+Note that if you start or finish drawing a spline near the start or
+end of another spline, those endpoints will be snapped together into a
+joint (meaning the endpoints will stay together).  You cannot join the
+end of a spline to its own beginning; so use multiple contours to
+achieve a closed shape.  After initial, rough drawing, you can use the
+nudge tool to drag control points to more precise locations.
+
+Contextual menus:
+Right-clicking on a spline will give you many options.
+
+
+Tracking splines:
+
+If you click on the "Show tracking samples" radio button, you can see
+the samples along each contour that will be tracked.  If a contour is
+a silhouette curve, you may wish to only track the interior.  Right
+click on a curve -- the first three options allow you to control which
+sides of curves are tracked.
+
+Once you have drawn contours in the first frame, and selected which
+sides to track, you need to copy the contours forward in time to a
+later keyframe.  Select the contours you wish to copy (holding Shift
+will allow you to select multiple curves), and select "Copy Spline
+through time" from the Tracking menu.  This will allow you to copy
+forward a specified number of frames.
+
+Next, visit the last frame that you copied to, and edit the shape to
+fit the video.  This can be done by nudging individual control points,
+and by using the Transform tool.  With the transform tool, shift-click
+selects individual Bezier segments, while ctrl-shift-click selects a
+whole contour.  You can translate, scale, or rotate the selected
+segments by dragging at the center, lower,left, or anywhere-else,
+respectively, of the green bounding-box.
+
+Next, visit any in-between frame, select the contours you wish to
+track, and select "Redo track" from the Tracking menu.  The first time
+you do this, the system will calculate image pyramids for each frame,
+which may take a while; you can see progress by watching the printouts
+in the xterm.  Tracking will then occur -- you can watch the progress
+in the interface.  Please wait until it finishes before interacting
+with the result (though you can visit other frames while it tracks).
+
+Interactive refinement:
+
+When the result isn't good enough, you can drag individual control
+points to their correct location.  Then, re-run the tracking.  The
+dragged control pts will remain fixed.  By pressing the "visualize
+effort" button on the right, you can see in purple which control
+points have been edited (either at keyframes or after refinement).
+

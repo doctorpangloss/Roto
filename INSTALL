@@ -1,0 +1,13 @@
+1. Make sure you have qt, qt-devel installed.  
+
+2. Download boost (boost.org), and change main.pro and KLT/main.pro to point to it (edit /homes/gws/aseem/boost to the correct location).
+
+3. cd KLT; qmake main.pro; make
+This will compile a library; hopefully it will produce libKLT.a
+
+4. cd ..; qmake main.pro; make
+Hopefully this will produce the program main
+
+5. cd release
+From here, refer to DOCS to try to run the included data sets
+

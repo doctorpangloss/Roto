@@ -1,0 +1,24 @@
+remember to -DNDEBUG
+
+Bigger stride for smoothness calculation
+Obs cache
+
+------
+
+Use intel compiler, intel MKL, etc...
+
+make Vec2d, use entirely internal to optimization
+
+inline some of the small calculating procedures
+
+-O3  -funroll-loops -ffast-math -march=i386 -mcpu=i686 -msse 
+
+
+-O3 -funroll-loops -ffast-math -mcpu=pentium4 -mfpmath=sse -msse2
+
+MAc: -O3 -funroll-loops -ffast-math -faltivec -mcpu=7400 -mdynamic-no-pic -fstrict-aliasing
+
+icc: -O3 -xW -tpp7 -i_dynamic -ipo -march=pentium4 -mcpu=pentium4
+
+-fast -axNB  -DNDEBUG
+
